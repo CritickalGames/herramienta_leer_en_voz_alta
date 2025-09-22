@@ -304,7 +304,54 @@ const ley_de_hume_y_sentimiento_moral = [
               "La razón sirve como instrumento para informar al sentimiento (sobre causas, efectos, hechos), pero el impulso moral último proviene siempre de la pasión, no del intelecto."
     }
 ];
-
+export const Dialnet_AlgunasReflexionesSobreLaFalaciaNaturalistaSobreLa_6520936_1 = [
+    {
+        text: "<strong>Temas principales del artículo 'Algunas reflexiones sobre la falacia naturalista sobre la ética de Hume':</strong><br>" +
+              "• Distinción entre la falacia naturalista en sentido lógico-formal y en sentido material o práctico.<br>" +
+              "• Análisis del texto problemático de Hume en el 'Tratado sobre la naturaleza humana' (Libro III) donde se menciona pasar del 'ser' (is) al 'deber ser' (ought).<br>" +
+              "• Cuestionamiento a la interpretación estándar (logicista/positivista) de la falacia naturalista de Hume.<br>" +
+              "• Propuesta de una interpretación histórica y contextual de Hume.<br>" +
+              "• Exploración de la posibilidad de fundamentar dialécticamente juicios normativos en juicios descriptivos.<br>" +
+              "• Discusión sobre el contenido normativo implícito en los enunciados descriptivos.<br>" +
+              "• Relación entre hechos, valores y la construcción de éticas aplicadas.<br>" +
+              "• Mención de autores relevantes: Hume, Moore, R.M. Hare, A. MacIntyre, J. Habermas, H.L.A. Hart, entre otros."
+    },
+    {
+        text: "<strong>La Falacia Naturalista: Distintas Acepciones</strong><br>" +
+              "El artículo distingue entre diferentes acepciones del concepto de 'falacia naturalista', propuesto inicialmente por G.E. Moore.<br>" +
+              "1. <u>Sentido Lógico-Formal (Moore, Positivismo):</u> Imposibilidad de deducir analíticamente un 'deber-ser' (juicio de valor) de un 'ser' (juicio empírico).<br>" +
+              "2. <u>Sentido Material o Práctico-Material:</u> Cuestiona cómo se puede efectuar la descripción del 'pasar' desde el 'ser' (enunciado descriptivo) al 'deber-ser' (enunciado normativo), permitiendo una fundamentación dialéctica o inferencia práctica-material.<br>" +
+              "El artículo se centra en señalar que la interpretación estándar de Hume se basa en la primera acepción, pero propone considerar la segunda para una comprensión más rica."
+    },
+    {
+        text: "<strong>Interpretación Estándar y su Crítica</strong><br>" +
+              "Durante gran parte del siglo XX, la interpretación estándar, influenciada por el positivismo lógico, entendía que Hume se refería explícitamente a la 'falacia naturalista' en el sentido lógico-formal.<br>" +
+              "Sin embargo, historiadores de la ética como Alasdair MacIntyre cuestionan esta interpretación.<br>" +
+              "Argumentan que Hume no pudo referirse a la falacia naturalista en sentido estricto, ya que dicho concepto fue formulado posteriormente por Moore.<br>" +
+              "MacIntyre sitúa la cuestión en su contexto histórico y propone una lectura más contextual de Hume, concluyendo que Hume sí intentaba mostrar cómo se podía inferir, en un sentido amplio de 'pasaje', de hechos a normas."
+    },
+    {
+        text: "<strong>El Texto Problemático de Hume y una Posible Contradicción</strong><br>" +
+              "El artículo menciona el célebre texto de Hume del 'Tratado': '[...] me sorprende que, en lugar de las cópulas o proposiciones es (is) y no es, no encuentro ninguna proposición que no esté conectada con un deber ser (ought) o con una proposición totalmente inconcebible por el entendimiento y contradictoria por la mente [...]'.<br>" +
+              "Señala que si Hume afirmara categóricamente la imposibilidad de pasar del 'ser' al 'deber-ser', se estaría contradiciendo, dado que su propio argumento parece implicar un paso de este tipo.<br>" +
+              "Esta ambigüedad hace que cualquier interpretación del texto tenga un cierto grado de plausibilidad."
+    },
+    {
+        text: "<strong>Fundamentación Dialéctica y Contenido Normativo Implícito</strong><br>" +
+              "El artículo explora la posibilidad de articular argumentativamente juicios de hecho (descriptivos) con juicios normativos.<br>" +
+              "Propone que los enunciados descriptivos pueden contener un 'contenido normativo implícito'.<br>" +
+              "Por ejemplo, el enunciado 'Los seres humanos son seres en principio responsables de sus actos' es un juicio de hecho que también es implícitamente normativo.<br>" +
+              "Esta noción permite 'fundamentar dialécticamente' o inferir práctico-materialmente de juicios de hecho a juicios normativos, 'explicitando' lo implícito."
+    },
+    {
+        text: "<strong>Consecuencias para la Ética y las Ciencias</strong><br>" +
+              "Aceptar esta posibilidad de fundamentación tiene profundas consecuencias.<br>" +
+              "Permite que la ética subsuma las conclusiones de las ciencias empíricas (como la medicina, la tecnología, la economía) como premisas.<br>" +
+              "A partir de estas premisas, se pueden construir desarrollos nuevos denominados 'éticas aplicadas'.<br>" +
+              "Estas éticas integrarían las conclusiones científicas y mostrarían las exigencias deónticas (normativas) que ellas mismas presuponen y que se pueden concluir de ellas.<br>" +
+              "De esta forma, se reconstruye una relación fecunda entre el conocimiento fáctico y la normatividad ética."
+    }
+];
 
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
@@ -314,6 +361,7 @@ temas:{
 "Material_de_apoyo":DAVID_HUME_Material_de_apoyo_complementario_clase_1,
 "rasgos_de_la_modernidad_conill": rasgos_de_la_modernidad_conill,
 'hume_clase_2': hume_clase_2,
-'ley_de_hume_y_sentimiento_moral': ley_de_hume_y_sentimiento_moral
+'ley_de_hume_y_sentimiento_moral': ley_de_hume_y_sentimiento_moral,
+"Algunas Reflexiones Sobre La Falacia Naturalista":Dialnet_AlgunasReflexionesSobreLaFalaciaNaturalistaSobreLa_6520936_1
 }
 };
