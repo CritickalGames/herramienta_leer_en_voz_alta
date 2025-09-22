@@ -1,4 +1,53 @@
-
+export const hume_diapos_primera_clase_2022 = [
+    {
+        text: "<strong>Temas principales de las diapositivas 'Hume - primera clase 2022':</strong><br>" +
+              "• Introducción al empirismo de Hume.<br>" +
+              "• Distinción fundamental entre impresiones y ideas.<br>" +
+              "• Relación entre impresiones e ideas: copia y semejanza.<br>" +
+              "• Principio de significación de Hume: la significatividad de las ideas depende de su origen en impresiones.<br>" +
+              "• Crítica a las ideas abstractas y al razonamiento sobre relaciones de ideas.<br>" +
+              "• La noción de sustancia y el 'Yo' como agrupaciones de percepciones.<br>" +
+              "• El argumento sobre la identidad personal y el 'Yo' como teatro o como haz de percepciones.<br>" +
+              "• La crítica al 'Yo' substancial y la noción de 'fascículo de percepciones'.<br>" +
+              "• La paradoja del 'Yo' y la crítica humeana a la introspección como fundamento del conocimiento.<br>" +
+              "• La relación entre las ideas y la experiencia sensible.<br>" +
+              "• La crítica a la metafísica y a la teología a partir del principio empirista."
+    },
+    {
+        text: "<strong>Empirismo y Distinción Fundamental</strong><br>" +
+              "Hume parte de una posición empirista radical, donde <em>toda idea significativa debe derivarse de la experiencia sensible</em>.<br><br>" +
+              "Establece una distinción fundamental entre:<br>" +
+              "• <u>Impresiones:</u> Percepciones más vivas e inmediatas, provenientes de las sensaciones externas o internas (sentimientos, pasiones).<br>" +
+              "• <u>Ideas:</u> Imágenes 'desvanecidas' de las impresiones en el pensamiento y la memoria.<br><br>" +
+              "La relación entre ambas es de <em>copiado</em>: las ideas son <em>copias</em> de las impresiones. La <em>semejanza</em> es el criterio que permite establecer esta relación."
+    },
+    {
+        text: "<strong>Principio de Significación y Crítica a lo Abstracto</strong><br>" +
+              "Hume formula un principio de significación: <em>para que una idea sea significativa, debe poderse rastrear hasta una impresión correspondiente</em>.<br><br>" +
+              "Aplica este principio para criticar nociones metafísicas como la de <em>sustancia</em> o <em>causa</em>, cuya procedencia empírica es dudosa.<br><br>" +
+              "Critica la noción de <em>idea abstracta</em>, argumentando que no podemos formar una idea que no sea la imagen de una impresión particular. Lo que llamamos 'idea abstracta' es en realidad una <em>idea particular que representamos como si fuera abstracta</em>."
+    },
+    {
+        text: "<strong>El 'Yo' y la Crítica a la Sustancia</strong><br>" +
+              "Hume aplica su análisis a la noción del <em>'Yo'</em> o <em>'self'</em>.<br><br>" +
+              "Argumenta que cuando introspectivamente buscamos el 'Yo', no encontramos una <em>sustancia</em> simple e idéntica a través del tiempo, sino una <em>serie de percepciones</em> (impresiones e ideas).<br><br>" +
+              "Rechaza la idea de un 'Yo' como <em>teatro</em> o <em>sustancia</em> que alberga las percepciones. En cambio, propone que el 'Yo' es mejor entendido como un <em>'fascículo' o 'haz' (bundle) de percepciones</em> relacionadas entre sí por la imaginación.<br><br>" +
+              "La <em>identidad personal</em> no es una identidad de una sustancia, sino una <em>identidad ficticia</em> creada por la imaginación que enlaza las percepciones similares a través del tiempo."
+    },
+    {
+        text: "<strong>Consecuencias y Paradojas</strong><br>" +
+              "Esta visión del 'Yo' lleva a una paradoja: si somos solo un haz de percepciones, <em>¿quién o qué es el sujeto que piensa, siente y actúa?</em><br><br>" +
+              "Hume no niega la <em>experiencia del Yo</em>, pero sí niega que esa experiencia corresponda a una <em>entidad substancial</em> simple e inmutable.<br><br>" +
+              "La crítica humeana al 'Yo' y a la sustancia tiene profundas consecuencias para la metafísica tradicional, sugiriendo que muchas nociones fundamentales carecen de fundamento empírico y, por tanto, de significado claro.<br><br>" +
+              "Su enfoque lleva a cuestionar la posibilidad de un conocimiento fundado en la introspección como acceso directo a una 'realidad' del 'Yo'."
+    },
+    {
+        text: "<strong>Crítica a la Metafísica y Conclusión</strong><br>" +
+              "La metodología humeana, basada en el principio de significación, se convierte en una herramienta para <em>destruir</em> (en su famosa frase) los volúmenes de metafísica y teología que no se basan en razonamientos empíricos o relaciones formales (matemáticas).<br><br>" +
+              "Las ideas que no pueden ser rastreadas hasta impresiones claras (como 'sustancia', 'yo substancial', 'causa metafísica') son consideradas <em>oscuras y confusas</em>.<br><br>" +
+              "El empirismo humeano redefine el ámbito legítimo del conocimiento, limitándolo a lo que puede ser contenido en la experiencia sensible o en las relaciones lógico-matemáticas entre ideas, dejando fuera las pretensiones de la metafísica tradicional."
+    }
+];
 
 const hume_clase_2 = [
     {
@@ -75,6 +124,7 @@ const hume_clase_2 = [
 export const temas = {
 tema: "ética aristotelica",
 temas:{
+"hume_diapos_primera_clase_2022":hume_diapos_primera_clase_2022,
 'hume_clase_2': hume_clase_2,
 }
 };
