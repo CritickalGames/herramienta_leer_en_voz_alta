@@ -177,6 +177,76 @@ const hume_clase_2 = [
               "Las preferencias morales son subjetivamente válidas; decir que son 'irracionales' solo significa que carecen de justificación racional objetiva, no que sean intrínsecamente erróneas."
     }
 ];
+const ley_de_hume_y_sentimiento_moral = [
+    {
+        text: "<strong>Temas principales:</strong><br>" +
+              "• Ley de Hume (distinción 'ser'/'deber ser')<br>" +
+              "• Crítica a la derivación de juicios morales desde la razón<br>" +
+              "• Fundamentación del juicio moral en el sentimiento<br>" +
+              "• El sentimiento moral como impresión de placer o displacer<br>" +
+              "• La simpatía como mecanismo de universalización del sentimiento<br>" +
+              "• Falacia naturalista y su interpretación histórica<br>" +
+              "• Análisis de casos morales: parricidio, incesto, asesinato"
+    },
+    {
+        text: "<strong>La Ley de Hume ('is-ought passage')</strong><br>" +
+              "Hume observa que en los sistemas morales, los autores pasan imperceptiblemente de enunciados descriptivos (que usan 'es' o 'no es') a enunciados normativos (que usan 'debe' o 'no debe').<br>" +
+              "Este salto es problemático porque el 'deber ser' expresa una relación nueva que no puede deducirse lógicamente de las relaciones puramente descriptivas del 'ser'.<br>" +
+              "Hume exige que se explique cómo es posible derivar una obligación moral (un 'debe') de hechos meramente descriptivos (un 'es')."
+    },
+    {
+        text: "<strong>La 'Falacia Naturalista': Cuatro Dimensiones</strong><br>" +
+              "El concepto de 'falacia naturalista' abarca varias ideas frecuentemente confundidas:<br>" +
+              "1. <strong>El texto ambiguo de Hume:</strong> Su observación original en su contexto histórico.<br>" +
+              "2. <strong>Falacia de reducción (G.E. Moore):</strong> Identificar erróneamente propiedades naturales (como lo útil) con propiedades morales (como lo bueno).<br>" +
+              "3. <strong>Falacia lógico-formal (Positivismo):</strong> La imposibilidad de deducir analíticamente un juicio de valor ('deber ser') de un juicio empírico ('ser').<br>" +
+              "4. <strong>Cuestión ético-práctica (Dussel):</strong> Cómo se describe el paso, por explicitación, desde el 'ser' al 'deber ser' en la práctica material."
+    },
+    {
+        text: "<strong>Interpretación Histórica vs. Interpretación Standard</strong><br>" +
+              "La interpretación standard (positivista lógico) asume que Hume denunciaba la imposibilidad lógica de derivar el 'deber ser' del 'ser'.<br>" +
+              "Sin embargo, una interpretación histórica (MacIntyre, Dussel) argumenta que esto es anacrónico, ya que la lógica formal moderna no existía en su época.<br>" +
+              "Hume mismo parte del 'ser' de los sentimientos y pasiones para fundamentar el 'deber ser' moral, lo que contradice la idea de que consideraba tal derivación imposible en un sentido absoluto."
+    },
+    {
+        text: "<strong>Crítica a la Razón como Fuente de la Moral (Reiteración)</strong><br>" +
+              "Hume reitera que la razón es inactiva y no puede motivar la acción ni generar juicios morales.<br>" +
+              "Los juicios morales (bueno/malo, virtuoso/vicioso) no son descubrimientos racionales sobre relaciones entre objetos o hechos, porque tales relaciones pueden existir sin que percibamos inmoralidad alguna.<br>" +
+              "La razón puede informar sobre los hechos, pero no puede por sí misma producir la condena o la aprobación moral."
+    },
+    {
+        text: "<strong>Análisis de Casos: Parricidio, Incesto, Asesinato</strong><br>" +
+              "<strong>Parricidio:</strong> Al examinar las relaciones objetivas (padre/hijo, acción de matar), no encontramos la idea de 'vicio'. Esta solo surge al reflexionar sobre nuestro sentimiento interno de desaprobación.<br>" +
+              "<strong>Incesto:</strong> Si se argumenta que es malo en humanos pero no en animales por nuestra capacidad racional, se cae en un círculo: la vileza debe existir antes de que la razón la 'descubra', lo que implica que no es creada por la razón.<br>" +
+              "<strong>Asesinato intencionado:</strong> El vicio no reside en los hechos observables de la acción, sino en el sentimiento de repulsión que experimentamos al contemplarla. Decir que algo es vicioso es reportar ese sentimiento de censura."
+    },
+    {
+        text: "<strong>Tesis Central: El Sentimiento Moral</strong><br>" +
+              "Las distinciones morales (virtud/vicio) se derivan no de la razón, sino de un <strong>sentimiento moral</strong> específico.<br>" +
+              "Este sentimiento es una <strong>impresión</strong> (no una idea), aunque a menudo sea tan suave que se confunda con un juicio racional.<br>" +
+              "• La <strong>virtud</strong> produce una impresión de <strong>placer</strong>.<br>" +
+              "• El <strong>vicio</strong> produce una impresión de <strong>displacer</strong> o dolor.<br>" +
+              "No inferimos que algo es virtuoso porque nos place; más bien, experimentamos placer <em>porque</em> lo percibimos como virtuoso. El sentimiento es la base de la alabanza o censura."
+    },
+    {
+        text: "<strong>Características del Sentimiento Moral</strong><br>" +
+              "No todo placer o displacer ante un carácter o acción es moral. Para ser un sentimiento moral, debe cumplir un criterio clave:<br>" +
+              "• Debe surgir cuando consideramos el carácter o la acción <strong>en general</strong>, <strong>sin referencia a nuestro interés personal</strong>.<br>" +
+              "Un acto puede ser útil para mí y causarme placer, pero eso no lo hace moralmente bueno. La moralidad requiere una perspectiva imparcial y desinteresada."
+    },
+    {
+        text: "<strong>El Papel de la Simpatía</strong><br>" +
+              "Hume introduce el concepto de <strong>simpatía</strong> como el mecanismo psicológico que permite esta perspectiva desinteresada.<br>" +
+              "La simpatía es la capacidad de resonar emocionalmente con los sentimientos de otros, incluso cuando no nos afectan directamente.<br>" +
+              "Gracias a la simpatía, podemos experimentar placer ante la virtud de un extraño o displacer ante el vicio de alguien que no nos ha perjudicado, universalizando así el sentimiento moral y dándole una base intersubjetiva."
+    },
+    {
+        text: "<strong>Conclusión: El No-Cognitivismo Humeano</strong><br>" +
+              "La moral humeana es fundamentalmente <strong>no-cognitivista</strong>: los juicios morales no afirman hechos objetivos del mundo que puedan ser verdaderos o falsos.<br>" +
+              "En cambio, expresan <strong>sentimientos subjetivos</strong> (de aprobación o desaprobación) que, gracias a la simpatía, pueden ser compartidos y comunicados socialmente.<br>" +
+              "La razón sirve como instrumento para informar al sentimiento (sobre causas, efectos, hechos), pero el impulso moral último proviene siempre de la pasión, no del intelecto."
+    }
+];
 
 
 // --- Objeto que agrupa todos los temas ---
@@ -186,5 +256,6 @@ temas:{
 "hume_diapos_primera_clase_2022":hume_diapos_primera_clase_2022,
 "Material_de_apoyo":DAVID_HUME_Material_de_apoyo_complementario_clase_1,
 'hume_clase_2': hume_clase_2,
+'ley_de_hume_y_sentimiento_moral': ley_de_hume_y_sentimiento_moral
 }
 };
