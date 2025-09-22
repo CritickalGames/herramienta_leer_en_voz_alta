@@ -16,9 +16,65 @@ import { materias } from "./data/materias.js";
 
 let currentlyLoadedButton = null; // Variable para rastrear el botón del tema actualmente cargado
 let activeMateriaKey = null; // Variable para rastrear la materia cuyas carpetas se muestran
+let availableVoices = []; // Variable para almacenar las voces disponibles
+let selectedVoice = null; // Variable para almacenar la voz seleccionada
+
+// --- Nueva sección: Inicializar voces y selector ---
+function initializeVoiceSelector() {
+    const voiceSelector = document.getElementById('voice-selector');
+
+    // Función para poblar el selector de voces
+    function populateVoiceList() {
+        availableVoices = speechSynthesis.getVoices();
+        voiceSelector.innerHTML = ''; // Limpiar opciones existentes
+
+        // Filtrar voces para preferir español si está disponible
+        const spanishVoices = availableVoices.filter(voice => 
+            voice.lang.startsWith('es-') || 
+            voice.name.toLowerCase().includes('spanish') ||
+            voice.name.toLowerCase().includes('español')
+        );
+
+        // Combinar voces: español primero, luego el resto
+        const sortedVoices = [...spanishVoices, ...availableVoices.filter(v => !spanishVoices.includes(v))];
+
+        sortedVoices.forEach((voice, index) => {
+            const option = document.createElement('option');
+            option.textContent = `${voice.name} (${voice.lang})`;
+            option.value = index; // Usar índice como valor
+             // Seleccionar una voz española como predeterminada si es posible
+             if (spanishVoices.length > 0 && voice === spanishVoices[0]) {
+                option.selected = true;
+                selectedVoice = voice;
+            } else if (spanishVoices.length === 0 && index === 0) {
+                 // Si no hay voces en español, seleccionar la primera voz disponible
+                 option.selected = true;
+                 selectedVoice = voice;
+            }
+            voiceSelector.appendChild(option);
+        });
+    }
+
+    // Poblar la lista de voces cuando estén cargadas
+    populateVoiceList();
+    if (speechSynthesis.onvoiceschanged !== undefined) {
+        speechSynthesis.onvoiceschanged = populateVoiceList;
+    }
+
+    // Manejar el cambio de voz
+    voiceSelector.addEventListener('change', () => {
+        const selectedIndex = parseInt(voiceSelector.value, 10);
+        selectedVoice = availableVoices[selectedIndex];
+        console.log(`Voz seleccionada: ${selectedVoice ? selectedVoice.name : 'Ninguna'}`);
+    });
+}
+// --- Fin de la nueva sección ---
 
 // --- Nueva sección: Crear estructura principal ---
 function initializeApp() {
+    // Inicializar el selector de voz
+    initializeVoiceSelector();
+
     // Obtener los contenedores ya definidos en el HTML
     const mainMateriasContainer = document.getElementById('main-materias-container');
     const selectedFoldersContainer = document.getElementById('selected-folders-container');
@@ -287,6 +343,12 @@ function loadContent(nombreMateriaKey, folderId, nombreTema, paragraphs, buttonE
         activeUtterance = new SpeechSynthesisUtterance(paragraph.textContent);
         activeContainer = container;
         isPaused = false;
+
+        // --- NUEVO: Aplicar la voz seleccionada ---
+        if (selectedVoice) {
+            activeUtterance.voice = selectedVoice;
+        }
+        // --- FIN NUEVO ---
 
         playBtn.disabled = true;
         pauseBtn.disabled = false;

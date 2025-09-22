@@ -231,3 +231,63 @@ button:disabled {
 #content-container div.paragraph-container + div.paragraph-container {
     margin-top: 20px;
 }
+/* css.css - Agregar estos estilos al final */
+
+/* --- Selector de Voz --- */
+#voice-selector-container {
+    position: fixed; /* Fijo en la pantalla */
+    top: 20px; /* Distancia desde la parte superior */
+    right: 20px; /* Distancia desde la derecha */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre el label y el select */
+}
+
+#voice-selector-container label {
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap; /* Evita que el label se divida en varias líneas */
+}
+
+#voice-selector {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 150px; /* Ancho mínimo para mejor visualización */
+    max-width: 250px; /* Ancho máximo para evitar que sea demasiado grande */
+    white-space: nowrap; /* Evita que el texto se divida */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Muestra puntos suspensivos si el texto es muy largo */
+}
+
+#voice-selector:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Ajuste para móviles */
+@media (max-width: 768px) {
+    #voice-selector-container {
+        top: 10px;
+        right: 10px;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    #voice-selector {
+        padding: 4px 8px;
+        font-size: 12px;
+        min-width: 120px;
+    }
+}
