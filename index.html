@@ -9,12 +9,23 @@
 <body>
     <h1>Lector de Texto por Párrafo desde JSON</h1>
     
-    <!-- Contenedor para los botones de temas, creado dinámicamente -->
-    <div id="themes-container">
-        <!-- Los botones se insertarán aquí por JavaScript -->
+    <!-- Contenedor principal para las materias (fila horizontal) -->
+    <div id="main-materias-container">
+        <!-- Los botones de materias se insertarán aquí por JavaScript -->
     </div>
-    
-    <div id="content-container"></div>
+
+    <!-- Contenedor para mostrar carpetas seleccionadas (debajo) -->
+    <div id="selected-folders-container" style="display: none;">
+        <!-- Título y botones de carpetas se insertarán aquí por JavaScript -->
+    </div>
+
+    <!-- Contenedor para mostrar temas seleccionados (debajo de carpetas) -->
+    <div id="selected-themes-container" style="display: none;">
+        <!-- Título y botones de temas se insertarán aquí por JavaScript -->
+    </div>
+
+    <!-- Contenedor para el contenido (párrafos, debajo de temas) -->
+    <div id="content-container" style="display: none;"></div>
 
     <script type="module" src="js.js"></script>
 </body>

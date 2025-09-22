@@ -15,9 +15,9 @@ h1 {
 /* --- NUEVO: Estilos para el contenedor y botones de temas --- */
 #themes-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column; /* Cambiado a columna para mejor control */
     gap: 10px;
-    justify-content: center;
+    align-items: center; /* Centrar elementos hijos */
     margin-bottom: 20px;
 }
 
@@ -37,6 +37,8 @@ button.tema {
     display: inline-flex; /* Para mejor alineación si el texto cambia */
     align-items: center;
     justify-content: center;
+    width: auto; /* Ancho automático */
+    min-width: 200px; /* Ancho mínimo para uniformidad */
 }
 button.tema:hover {
     background-color: #0056b3;
@@ -44,6 +46,50 @@ button.tema:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
+/* Estilos para el botón principal */
+button.tema.principal {
+    /* Hereda de .tema y puede tener estilos específicos */
+    background-color: #28a745; /* Verde por ejemplo */
+    font-size: 18px; /* Un poco más grande */
+    padding: 12px 24px;
+    min-width: 250px; /* Ancho mínimo ligeramente mayor */
+}
+
+button.tema.principal:hover {
+    background-color: #218838;
+}
+
+/* Contenedor para los subtemas */
+.sub-themes-container {
+    display: flex;
+    flex-direction: column; /* Mantener en columna */
+    align-items: center; /* Centrar elementos hijos */
+    gap: 10px; /* Espacio entre botones de subtemas */
+    padding: 15px;
+    background-color: #e9ecef; /* Fondo claro para diferenciar */
+    border-radius: 8px;
+    width: 100%; /* Ocupar ancho del contenedor padre */
+    box-sizing: border-box; /* Incluir padding en el ancho */
+    /* Inicialmente oculto, controlado por JS */
+}
+
+/* Estilos para los botones de subtemas */
+button.tema.subtema {
+    /* Heredar de .tema */
+    background-color: #6c757d; /* Gris por ejemplo */
+    font-size: 16px;
+    padding: 10px 20px;
+    width: auto; /* Ancho automático */
+    min-width: 200px; /* Ancho mínimo para uniformidad */
+    /* Eliminamos margin aquí ya que gap lo maneja */
+}
+
+button.tema.subtema:hover {
+    background-color: #5a6268;
+}
+
+/* Estado deshabilitado para cualquier botón .tema */
 button.tema:disabled {
     background-color: #6c757d; /* Color para botones deshabilitados */
     cursor: not-allowed;
@@ -129,4 +175,59 @@ button:disabled {
 }
 #content-container {
     display: none; /* Oculto inicialmente */
+}
+
+/* --- Estilos adicionales para mejorar la presentación general --- */
+/* Asegura que los encabezados dentro del contenido también tengan buen estilo */
+#content-container h2,
+#content-container h3,
+#content-container h4 {
+    color: #333;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#content-container h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.3em;
+}
+
+#content-container h3 {
+    font-size: 1.4em;
+    color: #28a745;
+}
+
+#content-container h4 {
+    font-size: 1.2em;
+    color: #6c757d;
+}
+
+/* Mejora la legibilidad de listas dentro del contenido */
+#content-container ul,
+#content-container ol {
+    margin: 1em 0;
+    padding-left: 40px;
+}
+
+#content-container li {
+    margin-bottom: 0.5em;
+}
+
+/* Estilo para enlaces dentro del contenido, si los hubiera */
+#content-container a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px dotted #007bff;
+}
+
+#content-container a:hover {
+    color: #0056b3;
+    border-bottom: 1px solid #0056b3;
+    text-decoration: none;
+}
+
+/* Espaciado adicional después de elementos de bloque */
+#content-container div.paragraph-container + div.paragraph-container {
+    margin-top: 20px;
 }

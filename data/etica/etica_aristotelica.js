@@ -1,4 +1,6 @@
-export const primera_clase = [
+// ./data/etica_aristotelica.js
+
+const primera_clase = [
     {
     text: "<strong>Temas principales:</strong><br>" +
             "• Introducción a la ética antigua<br>" +
@@ -102,7 +104,7 @@ export const primera_clase = [
     }
 ];
 
-export const segunda_clase = [
+const segunda_clase = [
     {
     text: "<strong>Temas principales de la segunda clase:</strong><br>" +
             "• Distinción de modos de vida (voluptuosa, política, crematística) y su relación con la felicidad.<br>" +
@@ -198,7 +200,7 @@ export const segunda_clase = [
 }
 ];
 
-export const etica_aristotelica_3 = [
+const etica_aristotelica_3 = [
     {
     text: "<strong>Temas principales de la tercera clase:</strong><br>" +
             "• Tensión en la concepción de eudaimonía: visión comprehensiva vs. intelectualista.<br>" +
@@ -254,7 +256,7 @@ export const etica_aristotelica_3 = [
 ];
 
 // Contenido resumido del archivo: Aristóteles, Acerca del Alma, Libro 3, Capítulo décimo, Gredos, 2003..pdf
-export const acercaDelAlma3_10 = [
+const acercaDelAlma3_10 = [
     {
         text: "<strong>Temas principales del Libro III, Capítulo 10 de 'Acerca del Alma':</strong><br>" +
               "• El alma como principio de movimiento.<br>" +
@@ -313,7 +315,7 @@ export const acercaDelAlma3_10 = [
 ];
 
 // Contenido resumido del archivo: Ética aristotélica 2.pdf
-export const etica2_virtud = [
+const etica2_virtud = [
     {
         text: "<strong>Temas principales de la Ética a Nicómaco, Libro II (Virtud Ética):</strong><br>" +
               "• La naturaleza de la virtud ética como disposición.<br>" +
@@ -370,7 +372,7 @@ export const etica2_virtud = [
 ];
 
 // Contenido resumido del archivo: Ética aristotélica 3 (1).pdf
-export const etica3_intelectuales = [
+const etica3_intelectuales = [
     {
         text: "<strong>Temas principales de la Ética a Nicómaco, Libro VI (Virtudes Intelectuales):</strong><br>" +
               "• División de la parte racional del alma.<br>" +
@@ -416,11 +418,27 @@ export const etica3_intelectuales = [
     },
     {
         text: "<strong>Prudencia (Phrónesis) en detalle</strong><br>" +
-              "• Es un modo de ser <em>racional, verdadero y práctico</em> sobre el bien/mal para el hombre.<br>" +
-              "• Propio del prudente: deliberar rectamente sobre el bien <u>general</u> de la vida, no solo aspectos parciales.<br>" +
-              "• La <em>recta razón</em> o deliberación determina el término medio de las virtudes de carácter.<br>" +
-              "• Determina <em>qué se debe hacer</em> (deseo recto) y <em>cómo hacerlo</em> (razonamiento verdadero).<br>" +
-              "• Se distingue de la virtud moral: la virtud moral concierne a la <em>elección</em>, la prudencia a la <em>regla de la elección</em> (precisión del criterio).<br>" +
-              "• Su dominio es el bien/mal <u>para el hombre</u>, no el Bien Absoluto."
+                "• Es un modo de ser <em>racional, verdadero y práctico</em> sobre el bien/mal para el hombre.<br>" +
+                "• Propio del prudente: deliberar rectamente sobre el bien <u>general</u> de la vida, no solo aspectos parciales.<br>" +
+                "• La <em>recta razón</em> o deliberación determina el término medio de las virtudes de carácter.<br>" +
+                "• Determina <em>qué se debe hacer</em> (deseo recto) y <em>cómo hacerlo</em> (razonamiento verdadero).<br>" +
+                "• Se distingue de la virtud moral: la virtud moral concierne a la <em>elección</em>, la prudencia a la <em>regla de la elección</em> (precisión del criterio).<br>" +
+                "• Su dominio es el bien/mal <u>para el hombre</u>, no el Bien Absoluto."
     }
 ];
+
+
+// --- Objeto que agrupa todos los temas ---
+export const temas = {
+tema: "ética aristotelica",
+temas:{
+'primera_clase': primera_clase,
+'segunda_clase': segunda_clase,
+'etica_aristotelica_3': etica_aristotelica_3,
+'acercaDelAlma3_10': acercaDelAlma3_10,
+'etica2_virtud': etica2_virtud,
+'etica3_intelectuales': etica3_intelectuales,
+// Añade más temas aquí siguiendo el patrón: 'nombreTema': nombreTema_constante
+// Asegúrate de que las claves (strings) coincidan con los nombres de las constantes definidas
+}
+};
