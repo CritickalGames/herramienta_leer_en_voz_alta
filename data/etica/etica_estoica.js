@@ -76,11 +76,89 @@ const maximas_epicteto = [
     }
 ];
 
+const estoicos_clases = [
+    {
+        text: "<strong>Temas principales del PDF 'Estoicos clases':</strong><br>" +
+              "• Doctrina del conocimiento estoica: impresión, asentimiento, cognición (katalēpsis).<br>" +
+              "• Cosmología estoica: mundo único, eterno retorno, conflagración universal.<br>" +
+              "• Determinismo y destino (fatum) en la filosofía estoica.<br>" +
+              "• Distinción entre fatalismo y determinismo.<br>" +
+              "• Libertad y necesidad: el ejemplo del cilindro (Crisipo).<br>" +
+              "• Definición del fin humano: vivir conforme a la naturaleza.<br>" +
+              "• Relación entre virtud, naturaleza individual y naturaleza universal (Zeus).<br>" +
+              "• Consecuencias éticas: seguir el destino, incluso hasta el punto del suicidio.<br>" +
+              "• Teoría de las pasiones: origen, clasificación y extirpación.<br>" +
+              "• Visión intelectualista de las pasiones.<br>" +
+              "• Postura sobre la eudaimonía y la unidad de las virtudes.<br>" +
+              "• Clasificación de las acciones: obligación (officium), conveniencia.<br>" +
+              "• Citas de fragmentos de Heráclito sobre el logos y el fuego."
+    },
+    {
+        text: "<strong>Doctrina del Conocimiento y Cosmología</strong><br>" +
+              "La escuela estoica desarrolló una doctrina del conocimiento basada en tres niveles:<br>" +
+              "• <u>Impresión (phantasia):</u> Representación sensorial, comparada con la palma de la mano abierta.<br>" +
+              "• <u>Asentimiento (synkatathesis):</u> Aceptación de la impresión, comparado con dedos semi-cerrados.<br>" +
+              "• <u>Cognición (katalēpsis):</u> Conocimiento verdadero y seguro, comparado con el puño cerrado.<br><br>" +
+              "Cosmológicamente, los estoicos sostenían:<br>" +
+              "• Existencia de un <em>único mundo</em>, resultado de la unión de razón (logos) y materia.<br>" +
+              "• Un proceso cíclico de <em>eterno retorno</em>.<br>" +
+              "• Un final cataclísmico llamado <em>conflagración universal</em>, donde todo retorna al fuego primordial en una especie de purificación."
+    },
+    {
+        text: "<strong>Determinismo, Destino y Libertad</strong><br>" +
+              "Los estoicos defendían una postura <em>determinista</em>, donde todo suceso tiene una causa antecedente. Esto se relaciona con el concepto de <em>'fatum'</em> (destino), entendido como lo predicho o dicho sobre el porvenir.<br><br>" +
+              "<strong>Distinciones importantes:</strong><br>" +
+              "• <u>Fatalismo ≠ Determinismo:</u> El fatalismo implica pasividad ante un destino inevitable; el determinismo estoico permite la acción racional dentro del marco causal.<br>" +
+              "• <u>Causas:</u> Se distinguen causas <em>próximas</em> (estímulos externos) y <em>principales</em> (la naturaleza racional del individuo).<br><br>" +
+              "<strong>Ejemplo del Cilindro (Crisipo):</strong><br>" +
+              "Ilustra cómo un cuerpo inerte (cilindro) necesita un impulso externo para moverse, pero una vez en movimiento, continúa por su propio impulso. Así, el alma racional necesita estímulos, pero la acción sigue leyes internas de racionalidad."
+    },
+    {
+        text: "<strong>Fin Humano y Virtud</strong><br>" +
+              "El fin último de la vida humana, según los estoicos, es <em>vivir conforme a la naturaleza</em>.<br>" +
+              "• <u>Cleantes:</u> Lo definió como <em>vivir en armonía con la naturaleza</em>.<br>" +
+              "• <u>Crisipo:</u> Lo aclaró como <em>vivir de modo conforme a la experiencia de los sucesos naturales</em>.<br><br>" +
+              "Esto implica:<br>" +
+              "• Vivir según la <em>propia naturaleza racional</em>.<br>" +
+              "• Vivir según la <em>naturaleza universal</em> (identificada con Zeus o el logos racional que gobierna el cosmos).<br>" +
+              "• La <em>virtud</em> es la clave para lograr esta vida armoniosa y feliz.<br>" +
+              "• <u>Consecuencias éticas:</u> Seguir el destino, incluso si eso implica sacrificar la vida, como se verá en la justificación del suicidio."
+    },
+    {
+        text: "<strong>Pasiones y Extirpación</strong><br>" +
+              "Los estoicos tenían una visión <em>intelectualista</em> de las pasiones. Consideraban que:<br>" +
+              "• Las pasiones nacen de <em>juicios erróneos</em> sobre lo que es bueno o malo.<br>" +
+              "• Al corregir estos juicios mediante la razón, se puede <em>extirpar</em> (eliminar) la pasión.<br><br>" +
+              "<strong>Clasificación de pasiones (según interpretación estoica):</strong><br>" +
+              "• <u>Placer y Dolor:</u> Respecto a objetos presentes.<br>" +
+              "• <u>Deseo y Temor:</u> Respecto a objetos futuros.<br>" +
+              "(Nota: El texto menciona que la pasión está relacionada con la <em>atracción</em> o <em>rechazo</em> hacia un objeto valorado)."
+    },
+    {
+        text: "<strong>Eudaimonía, Unidad de Virtudes y Acciones</strong><br>" +
+              "La <em>eudaimonía</em> (felicidad/bienestar) para los estoicos se identifica directamente con la <em>posesión de la virtud</em>.<br>" +
+              "• A diferencia de Aristóteles, para los estoicos <em>alcanzar la sabiduría/virtud en un instante</em> bastaba para ser feliz, pues esta no podía perderse.<br><br>" +
+              "<strong>Unidad de las virtudes:</strong><br>" +
+              "Sostienen que <em>todas las virtudes son una sola</em>, manifestándose en diferentes aspectos de la vida.<br><br>" +
+              "<strong>Clasificación de las acciones:</strong><br>" +
+              "• <u>Obligación/Tarea (officium):</u> Acción <em>conforme a la naturaleza</em>, similar a cumplir una función.<br>" +
+              "• Se clasifican en: acciones <em>conformes</em> a la conveniencia, <em>contrarias</em> a la conveniencia, y <em>ni conformes ni contrarias</em>."
+    },
+    {
+        text: "<strong>Suicidio y Conclusión</strong><br>" +
+              "Una consecuencia radical de vivir conforme a la naturaleza y a la virtud es la <em>justificación del suicidio</em>.<br>" +
+              "• Si las condiciones personales (físicas o psicológicas) impiden vivir virtuosamente y predominan las condiciones contrarias a la naturaleza, <em>el deber puede ser abandonar la vida</em>, incluso si se es feliz en ese momento.<br><br>" +
+              "<strong>Cita de Heráclito (Fragmento B 30):</strong><br>" +
+              "El texto concluye con una cita que refuerza la idea de un orden universal basado en el fuego y la medida: <em>\"Este cosmos, uno mismo para todos los seres, no lo hizo ninguno de los dioses ni de los hombres, sino que siempre ha sido, es y será fuego eternamente viviente, que se enciende según medidas y se apaga según medidas.\"</em>"
+    }
+];
+
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
 tema: "ética estoica",
 temas:{
 'suicidio_en_estoicos': suicidio_en_estoicos, 
-'maximas_epicteto': maximas_epicteto
+'maximas_epicteto': maximas_epicteto,
+'estoicos_clases': estoicos_clases,
 }
 };

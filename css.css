@@ -291,58 +291,113 @@ button:disabled {
         min-width: 120px;
     }
 }
-/* --- Selector de Voz y Controles --- */
+/* --- Selector de Voz y Controles Colapsables (CORREGIDO) --- */
 #voice-controls-container {
-    position: fixed; /* Fijo en la pantalla */
-    top: 20px; /* Distancia desde la parte superior */
-    right: 20px; /* Distancia desde la derecha */
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
-    padding: 15px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    z-index: 1000;
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px; /* Espacio entre grupos de controles */
-    min-width: 200px;
+    display: flex; /* Flexbox principal */
+    align-items: center;
+    gap: 10px;
+    min-width: fit-content;
+    transition: all 0.3s ease;
+    /* Inicialmente mostramos los controles */
 }
 
+/* Botón para colapsar/expandir */
+#toggle-voice-controls {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0; /* Evita que el botón se encoja */
+}
+
+#toggle-voice-controls:hover {
+    background-color: #0056b3;
+}
+
+/* Contenido colapsible - ahora es un hijo directo de #voice-controls-container */
+#voice-controls-content {
+    display: flex; /* Mostrar horizontalmente por defecto */
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s ease;
+    overflow: hidden; /* Ocultar contenido que se desborda */
+    /* Eliminamos display: none aquí, lo controlamos por clase */
+}
+
+/* Cuando está colapsado, ocultamos el contenido */
+#voice-controls-container.collapsed #voice-controls-content {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden; /* Mejor que display: none para transiciones */
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+/* Ajustar el botón cuando está colapsado para que apunte a la derecha */
+#voice-controls-container.collapsed #toggle-voice-controls {
+    /* Puedes cambiar el texto/emoji aquí con JS si lo deseas */
+}
+
+
+/* --- Estilos restantes para grupos de control, selectores, sliders, etc. (sin cambios) --- */
 .control-group {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 4px;
+    min-width: fit-content;
 }
 
 #voice-controls-container label {
     font-weight: bold;
     color: #333;
-    font-size: 13px;
+    font-size: 12px;
+    white-space: nowrap;
 }
 
 #voice-selector {
-    padding: 6px 10px;
+    padding: 4px 8px;
     border: 1px solid #ccc;
-    border-radius: 6px;
+    border-radius: 4px;
     background-color: white;
     color: #333;
-    font-size: 13px;
+    font-size: 12px;
     cursor: pointer;
-    min-width: 180px;
+    min-width: 120px;
     max-width: 100%;
 }
 
 #voice-rate, #voice-pitch {
-    width: 100%;
+    width: 80px;
     cursor: pointer;
 }
 
-/* Estilos para mostrar el valor de los sliders */
 #rate-value, #pitch-value {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     color: #007bff;
     text-align: center;
+    min-width: 30px;
 }
 
 #voice-selector:focus,
@@ -350,7 +405,7 @@ button:disabled {
 #voice-pitch:focus {
     outline: none;
     border-color: #007bff;
-    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 1px rgba(0, 123, 255, 0.25);
 }
 
 /* Ajuste para móviles */
@@ -358,18 +413,43 @@ button:disabled {
     #voice-controls-container {
         top: 10px;
         right: 10px;
-        padding: 10px;
         font-size: 12px;
-        min-width: 150px;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    #toggle-voice-controls {
+        padding: 4px 8px;
+        font-size: 14px;
+        min-width: 35px;
+    }
+
+    .control-group {
+        gap: 3px;
     }
 
     #voice-selector {
-        padding: 4px 8px;
-        font-size: 12px;
-        min-width: 140px;
+        padding: 3px 6px;
+        font-size: 11px;
+        min-width: 100px;
     }
     
     #rate-value, #pitch-value {
-        font-size: 12px;
+        font-size: 11px;
+    }
+    
+    #voice-rate, #voice-pitch {
+        width: 60px;
+    }
+    
+    /* En móviles, mostrar controles verticalmente cuando están expandidos */
+    #voice-controls-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    /* Y horizontalmente cuando están colapsados (aunque no se vean) */
+    #voice-controls-container.collapsed #voice-controls-content {
+        flex-direction: row; /* Volver a fila para minimizar altura */
     }
 }
