@@ -110,6 +110,37 @@ function initializeVoiceControls() {
         pitchValue.textContent = selectedPitch.toFixed(1);
         console.log(`Tono seleccionado: ${selectedPitch}`);
     });
+    
+        // --- CORREGIDO: Lógica para colapsar/expandir controles ---
+    const toggleButton = document.getElementById('toggle-voice-controls');
+    const controlsContainer = document.getElementById('voice-controls-container'); // El contenedor principal
+    const controlsContent = document.getElementById('voice-controls-content'); // El contenido a ocultar/mostrar
+
+    // Verificar si los elementos existen antes de añadir el listener
+    if (toggleButton && controlsContainer) {
+        toggleButton.addEventListener('click', () => {
+            // Alternar la clase 'collapsed' en el contenedor principal
+            controlsContainer.classList.toggle('collapsed');
+            
+            // Cambiar el texto/emoji del botón según el estado
+            if (controlsContainer.classList.contains('collapsed')) {
+                // Está colapsado
+                toggleButton.textContent = '\u25B6'; // Flecha derecha
+                toggleButton.title = "Expandir Controles de Voz";
+                // console.log("Controles colapsados"); // Para depuración
+            } else {
+                // Está expandido
+                toggleButton.textContent = '\u25BC'; // Flecha abajo (o el que prefieras)
+                toggleButton.title = "Colapsar Controles de Voz";
+                // Nos aseguramos de que el contenido sea visible
+                // controlsContent.style.display = 'flex'; // Ya lo controla CSS
+                // console.log("Controles expandidos"); // Para depuración
+            }
+        });
+    } else {
+        console.warn("No se encontraron los elementos necesarios para colapsar los controles de voz (#toggle-voice-controls o #voice-controls-container).");
+    }
+    // --- FIN DE LA IMPLEMENTACIÓN ---
 }
 // --- Fin de la nueva sección ---
 
