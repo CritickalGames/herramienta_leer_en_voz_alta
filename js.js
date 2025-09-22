@@ -283,6 +283,7 @@ function createFolderButtons(nombreMateriaKey, folderObject, container) {
         // Crear botones de temas dentro de esta carpeta
         for (const [nombreTema, datosTema] of Object.entries(folderObject.temas)) {
             const themeButton = document.createElement('button');
+            
             themeButton.className = 'tema subtema';
             themeButton.textContent = nombreTema.replace(/_/g, ' ');
             themeButton.dataset.materia = nombreMateriaKey;
