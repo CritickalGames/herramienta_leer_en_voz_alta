@@ -1,4 +1,4 @@
-export const hume_diapos_primera_clase_2022 = [
+const hume_diapos_primera_clase_2022 = [
     {
         text: "<strong>Temas principales de las diapositivas 'Hume - primera clase 2022':</strong><br>" +
               "• Introducción al empirismo de Hume.<br>" +
@@ -48,7 +48,7 @@ export const hume_diapos_primera_clase_2022 = [
               "El empirismo humeano redefine el ámbito legítimo del conocimiento, limitándolo a lo que puede ser contenido en la experiencia sensible o en las relaciones lógico-matemáticas entre ideas, dejando fuera las pretensiones de la metafísica tradicional."
     }
 ];
-export const DAVID_HUME_Material_de_apoyo_complementario_clase_1 = [
+const DAVID_HUME_Material_de_apoyo_complementario_clase_1 = [
     {
         text: "<strong>Temas principales del material de apoyo 'DAVID HUME Material de apoyo complementario clase 1':</strong><br>" +
               "• Vida y obra principal de David Hume (1711-1776).<br>" +
@@ -304,7 +304,7 @@ const ley_de_hume_y_sentimiento_moral = [
               "La razón sirve como instrumento para informar al sentimiento (sobre causas, efectos, hechos), pero el impulso moral último proviene siempre de la pasión, no del intelecto."
     }
 ];
-export const Dialnet_AlgunasReflexionesSobreLaFalaciaNaturalistaSobreLa_6520936_1 = [
+const Dialnet_AlgunasReflexionesSobreLaFalaciaNaturalistaSobreLa_6520936_1 = [
     {
         text: "<strong>Temas principales del artículo 'Algunas reflexiones sobre la falacia naturalista sobre la ética de Hume':</strong><br>" +
               "• Distinción entre la falacia naturalista en sentido lógico-formal y en sentido material o práctico.<br>" +
