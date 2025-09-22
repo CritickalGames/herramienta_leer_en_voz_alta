@@ -1,114 +1,58 @@
 // ./data/etica_aristotelica.js
 
-const primera_clase = [
+export const suicidio_en_estoicos = [
     {
-    text: "<strong>Temas principales:</strong><br>" +
-            "• Introducción a la ética antigua<br>" +
-            "• Teleologismo aristotélico<br>" +
-            "• Relación medios-fines<br>" +
-            "• Búsqueda del fin supremo (eudaimonía/felicidad)<br>" +
-            "• Ética como parte de la política<br>" +
-            "• Concepciones populares de la felicidad:<br>" +
-            "&nbsp;&nbsp;◦ Voluptuosa<br>" +
-            "&nbsp;&nbsp;◦ Política<br>" +
-            "&nbsp;&nbsp;◦ Crematística<br>" +
-            "• La virtud como disposición y actividad<br>" +
-            "• La eudaimonía como fin perfecto y autosuficiente<br>" +
-            "• La función específica del hombre (ergon) según la razón"
+        text: "<strong>Temas principales del texto 'Sobre el suicidio en la filosofía estoica' (Marcelo Boeri):</strong><br>" +
+              "• Posición general de los estoicos sobre el suicidio como acción permitida o incluso recomendada.<br>" +
+              "• Influencia del Sócrates platónico (especialmente del <em>Fedón</em>).<br>" +
+              "• Postura aristotélica sobre la posibilidad de cometer injusticia contra sí mismo.<br>" +
+              "• Justificación estoica del suicidio, particularmente en situaciones de esclavitud o enfermedad del alma.<br>" +
+              "• Definición del fin de la vida humana según los estoicos: 'vivir en coherencia' o 'vivir según la naturaleza'.<br>" +
+              "• Relación entre la virtud estoica, la racionalidad y la decisión de quitarse la vida.<br>" +
+              "• Paradojas y tensiones internas en la justificación estoica del suicidio.<br>" +
+              "• El sabio estoico como modelo moral (comparado con Sócrates).<br>" +
+              "• Énfasis estoico en el examen permanente de la vida."
     },
     {
-    text: "<strong>Introducción a la ética antigua</strong><br>" +
-            "La ética antigua, especialmente la griega (Atenas: Sócrates, Platón, Aristóteles, epicúreos, estoicos), centraba sus reflexiones en la noción de <em>'ser'</em>, entendiendo la moralidad como una dimensión fundamental del ser humano.<br><br>" +
-            "<strong>Contraste con otras épocas:</strong><br>" +
-            "• <u>Modernidad:</u> Conciencia del deber.<br>" +
-            "• <u>Siglo XX:</u> Lenguaje moral.<br><br>" +
-            "Buscaban un <strong>'bien supremo'</strong> para la vida humana, frecuentemente identificado con la <em>felicidad (eudaimonía)</em>."
+        text: "<strong>Introducción y Contexto Histórico</strong><br>" +
+              "Los estoicos son comúnmente considerados como la escuela filosófica de la antigüedad que más claramente <em>justificó el suicidio como una 'acción debida' (proia) del sabio</em>.<br><br>" +
+              "Para entender esta posición, es crucial considerar sus antecedentes:<br>" +
+              "• <u>Sócrates (según Platón):</u> Es visto como el antecedente decisivo que sugirió que, bajo ciertas circunstancias, quitarse la vida puede ser un acto correcto y racional.<br>" +
+              "• <u>Aristóteles:</u> No aborda el suicidio en detalle, pero lo menciona en el marco de la justicia, preguntándose si alguien puede cometer injusticia contra sí mismo.<br><br>" +
+              "El artículo de Boeri propone analizar estas posiciones para luego centrarse en la explicación estoica, evaluando sus argumentos y coherencia interna."
     },
     {
-    text: "<strong>Enfoque de Aristóteles</strong><br>" +
-            "Aristóteles, en su <em>'Ética a Nicómaco'</em>, adopta un enfoque <u>analítico</u> buscando la esencia de la felicidad, a diferencia del enfoque <u>pedagógico y místico</u> de Platón.<br><br>" +
-            "<strong>Teleologismo:</strong> Toda actividad humana tiene un <em>fin</em>. Estos fines pueden ser:<br>" +
-            "• <strong>Medios</strong> para otros fines.<br>" +
-            "• <strong>Fines últimos.</strong><br><br>" +
-            "Para evitar una <u>regresión infinita</u> de medios y fines, postula la existencia de un <em>fin último</em>, que es la <strong>felicidad (eudaimonía)</strong>."
+        text: "<strong>La Justificación Estoica del Suicidio</strong><br>" +
+              "Los estoicos son presentados como los principales defensores del suicidio en la antigüedad, con ejemplos históricos de suicidios célebres de filósofos estoicos.<br><br>" +
+              "<strong>Figuras Clave:</strong><br>" +
+              "• <u>Séneca:</u> Representante típico. Describe el suicidio como una '<em>vía hacia la libertad</em>' en situaciones de esclavitud o sometimiento. También lo ve como una salida cuando el '<em>ánimo se encuentra enfermo</em>' por sus propios defectos.<br><br>" +
+              "<strong>Fin de la Vida Humana según los Estoicos:</strong><br>" +
+              "Definen el fin como '<em>vivir en coherencia</em>' (Zenón), '<em>vivir en coherencia con la naturaleza</em>' (Cleantes) o '<em>vivir según la experiencia de las cosas que suceden por naturaleza</em>'.<br>" +
+              "Esta definición implica una vida guiada por la razón y la aceptación del orden natural (incluyendo la propia muerte si es racional)."
     },
     {
-    text: "<strong>Características del fin último (felicidad)</strong><br>" +
-            "Este fin último <u>no es</u> un simple placer o riqueza, sino <em>una actividad del alma según la virtud</em>, realizada a lo largo de toda la vida.<br><br>" +
-            "<strong>Relación Ética-Política:</strong><br>" +
-            "Para Aristóteles, la ética forma parte de la política, ya que el <em>bien de la ciudad (polis)</em> es superior al bien individual.<br>" +
-            "La política determina los conocimientos necesarios para el ciudadano y las ciudades, considerando el bien de la ciudad como el <u>más perfecto</u>."
+        text: "<strong>Modelo Moral y Racionalidad</strong><br>" +
+              "El modelo moral de los estoicos es explícitamente <em>socrático</em> (ver Epicteto).<br><br>" +
+              "<strong>Conducta del Sabio Estoico:</strong><br>" +
+              "Su comportamiento es <em>prudencial</em>, basado en la razón y el examen permanente. Se enfoca en:<br>" +
+              "• (i) Vivir con <em>consistencia dialéctica y vital</em>.<br>" +
+              "• (ii) Practicar el <em>autoexamen permanente</em> y evitar decisiones basadas en emociones violentas.<br><br>" +
+              "<strong>Decisión del Suicidio:</strong><br>" +
+              "Si un individuo se encuentra en condiciones que <em>impiden el ejercicio de la virtud y la racionalidad</em> (por ejemplo, esclavitud extrema, dolor incurable que corrompe el juicio), <strong>quitarse la vida puede ser una decisión racional y, por tanto, correcta</strong>.<br>" +
+              "Esto contrasta con una vida irracional o gobernada por pasiones destructivas."
     },
     {
-    text: "<strong>Análisis del concepto de felicidad</strong><br>" +
-            "Aristóteles parte del <em>lenguaje</em> y las <em>opiniones comunes</em> para analizar la felicidad.<br><br>" +
-            "<strong>Acuerdo y Divergencia:</strong><br>" +
-            "• <u>Acuerdo:</u> Llamar 'felicidad' al bien supremo.<br>" +
-            "• <u>Divergencia:</u> Sobre su contenido real.<br><br>" +
-            "<strong>Concepciones populares analizadas:</strong><br>" +
-            "1. <strong>Vida voluptuosa</strong> (placeres)<br>" +
-            "2. <strong>Vida política</strong> (honores)<br>" +
-            "3. <strong>Vida crematística</strong> (riqueza)"
-    },
-    {
-    text: "<strong>Crítica a las concepciones populares</strong><br>" +
-            "<strong>1. Vida Voluptuosa:</strong><br>" +
-            " Rechazada porque no distingue al hombre de otros animales.<br><br>" +
-            "<strong>2. Vida Política (Honores):</strong><br>" +
-            " Rechazada porque depende de <em>factores externos</em> (reconocimiento ajeno) y no del individuo mismo.<br><br>" +
-            "<strong>3. Vida Crematística (Riqueza):</strong><br>" +
-            " Rechazada porque la riqueza es un <em>bien instrumental</em>, no autosuficiente.<br>" +
-            " Siempre se puede preguntar '<strong>¿para qué?</strong>' respecto a la riqueza acumulada."
-    },
-    {
-    text: "<strong>La verdadera felicidad (eudaimonía)</strong><br>" +
-            "La felicidad implica una <em>actividad virtuosa constante y duradera</em>, <u>no</u> acciones aisladas.<br><br>" +
-            "<strong>Naturaleza de la Virtud:</strong><br>" +
-            "• No es solo un <em>estado</em> o <em>disposición (hexis)</em>.<br>" +
-            "• Es también una <em>actividad (energeia)</em> consciente y deliberada.<br><br>" +
-            "<strong>Placer y Virtud:</strong><br>" +
-            "La actividad virtuosa se acompaña <em>inherentemente de placer</em>, no es una renuncia al mismo.<br>" +
-            "• <u>Síntoma positivo:</u> Experimentar placer al obrar virtuosamente.<br>" +
-            "• <u>Señal de mejora:</u> Si provoca molestia, puede indicar que aún no se es virtuoso."
-    },
-    {
-    text: "<strong>Requisitos de la felicidad verdadera</strong><br>" +
-            "La felicidad debe ser:<br>" +
-            "1. Un <strong>bien perfecto</strong> (buscado por sí mismo).<br>" +
-            "2. <strong>Autosuficiente (autarquía)</strong>: Quien la posee no desea nada más fuera de ella.<br><br>" +
-            "<strong>Implicaciones:</strong><br>" +
-            "• Estos criterios excluyen concepciones que dependen de bienes externos.<br>" +
-            "• La <em>autosuficiencia</em> implica una <u>plenitud</u>, no necesidad de algo distinto para sentir realización.<br>" +
-            "• <u>No excluye el sufrimiento.</u>"
-    },
-    {
-    text: "<strong>La función específica del hombre (ergon)</strong><br>" +
-            "Para definir la felicidad específicamente humana, Aristóteles identifica la <em>'función' (ergon)</em> peculiar del hombre:<br>" +
-            "<strong>→ La actividad del alma según la razón.</strong><br><br>" +
-            "<strong>Componentes del alma:</strong><br>" +
-            "• Parte <u>racional</u> (pensamiento).<br>" +
-            "• Parte <u>apetitiva (sensitiva)</u>, capaz de obedecer a la razón.<br><br>" +
-            "<strong>Actuar virtuosamente:</strong><br>" +
-            "• <u>No es</u> negar los deseos.<br>" +
-            "• <u>Es</u> encauzarlos correctamente según la razón."
-    },
-    {
-    text: "<strong>Racionalidad práctica y debilidad de la voluntad</strong><br>" +
-            "<strong>Los deseos:</strong><br>" +
-            "No son <em>irracionales</em> si pueden obedecer la razón; son parte de una <u>racionalidad práctica</u>.<br><br>" +
-            "<strong>La virtud:</strong><br>" +
-            "Implica <em>razón y algo más</em>, permitiendo la posibilidad de <em>acciones acráticas (debilidad de la voluntad)</em>, a diferencia del intelectualismo socrático.<br><br>" +
-            "<strong>Conclusión sobre la felicidad:</strong><br>" +
-            "Es una <em>actividad vital del alma según la virtud perfecta</em>, realizada en un <u>período completo de vida</u>, no en instantes aislados.<br>" +
-            "<em>'Una golondrina no hace verano'</em>: requiere <strong>estabilidad y permanencia</strong>."
+        text: "<strong>Paradojas y Tensiones Internas</strong><br>" +
+              "Boeri argumenta que la tesis estoica de la <em>racionalidad del suicidio</em> puede plantear <em>paradojas insolubles</em> que, en algunos casos, <em>parecen contradecir principios éticos fundamentales</em> del estoicismo (por ejemplo, el valor de la vida, la aceptación del destino).<br><br>" +
+              "Sin embargo, estas posiciones encuentran una explicación coherente dentro del marco de la <em>teoría moral estoica</em>, que valora la <em>calidad racional de la vida</em> por encima de su simple prolongación.<br><br>" +
+              "El mensaje central, más allá de la radicalidad específica sobre el suicidio, es una enseñanza socrática fundamental: '<em>una vida sin examen no vale la pena de ser vivida por el hombre</em>'."
     }
 ];
-
 
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
 tema: "ética estoica",
 temas:{
-'_clase': primera_clase,
+'suicidio_en_estoicos': suicidio_en_estoicos,
 }
 };
