@@ -354,11 +354,6 @@ button:disabled {
     gap: 0;
 }
 
-/* Ajustar el botón cuando está colapsado para que apunte a la derecha */
-#voice-controls-container.collapsed #toggle-voice-controls {
-    /* Puedes cambiar el texto/emoji aquí con JS si lo deseas */
-}
-
 
 /* --- Estilos restantes para grupos de control, selectores, sliders, etc. (sin cambios) --- */
 .control-group {
