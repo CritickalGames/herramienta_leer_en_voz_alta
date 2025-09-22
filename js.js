@@ -18,15 +18,34 @@ let currentlyLoadedButton = null; // Variable para rastrear el botón del tema a
 let activeMateriaKey = null; // Variable para rastrear la materia cuyas carpetas se muestran
 let availableVoices = []; // Variable para almacenar las voces disponibles
 let selectedVoice = null; // Variable para almacenar la voz seleccionada
+let selectedRate = 1.0; // Velocidad por defecto
+let selectedPitch = 1.0; // Tono por defecto
 
-// --- Nueva sección: Inicializar voces y selector ---
-function initializeVoiceSelector() {
+// --- Nueva sección: Inicializar controles de voz ---
+function initializeVoiceControls() {
     const voiceSelector = document.getElementById('voice-selector');
+    const rateSlider = document.getElementById('voice-rate');
+    const pitchSlider = document.getElementById('voice-pitch');
+    const rateValue = document.getElementById('rate-value');
+    const pitchValue = document.getElementById('pitch-value');
 
     // Función para poblar el selector de voces
     function populateVoiceList() {
+        if (typeof speechSynthesis === 'undefined') {
+            console.warn("Speech Synthesis no está disponible en este navegador.");
+            return;
+        }
+
         availableVoices = speechSynthesis.getVoices();
         voiceSelector.innerHTML = ''; // Limpiar opciones existentes
+
+        if (availableVoices.length === 0) {
+            const option = document.createElement('option');
+            option.textContent = 'No hay voces disponibles';
+            option.disabled = true;
+            voiceSelector.appendChild(option);
+            return;
+        }
 
         // Filtrar voces para preferir español si está disponible
         const spanishVoices = availableVoices.filter(voice => 
@@ -42,14 +61,15 @@ function initializeVoiceSelector() {
             const option = document.createElement('option');
             option.textContent = `${voice.name} (${voice.lang})`;
             option.value = index; // Usar índice como valor
-             // Seleccionar una voz española como predeterminada si es posible
-             if (spanishVoices.length > 0 && voice === spanishVoices[0]) {
+            
+            // Seleccionar una voz española como predeterminada si es posible
+            if (spanishVoices.length > 0 && voice === spanishVoices[0]) {
                 option.selected = true;
                 selectedVoice = voice;
             } else if (spanishVoices.length === 0 && index === 0) {
-                 // Si no hay voces en español, seleccionar la primera voz disponible
-                 option.selected = true;
-                 selectedVoice = voice;
+                // Si no hay voces en español, seleccionar la primera voz disponible
+                option.selected = true;
+                selectedVoice = voice;
             }
             voiceSelector.appendChild(option);
         });
@@ -57,23 +77,46 @@ function initializeVoiceSelector() {
 
     // Poblar la lista de voces cuando estén cargadas
     populateVoiceList();
+    
     if (speechSynthesis.onvoiceschanged !== undefined) {
         speechSynthesis.onvoiceschanged = populateVoiceList;
+    } else {
+        // En algunos navegadores, las voces pueden estar disponibles inmediatamente
+        if (availableVoices.length === 0 && speechSynthesis.getVoices().length > 0) {
+             populateVoiceList();
+        }
     }
 
     // Manejar el cambio de voz
     voiceSelector.addEventListener('change', () => {
         const selectedIndex = parseInt(voiceSelector.value, 10);
-        selectedVoice = availableVoices[selectedIndex];
-        console.log(`Voz seleccionada: ${selectedVoice ? selectedVoice.name : 'Ninguna'}`);
+        // Asegurarse de que availableVoices esté poblado
+        if (availableVoices.length > 0) {
+            selectedVoice = availableVoices[selectedIndex];
+            console.log(`Voz seleccionada: ${selectedVoice ? selectedVoice.name : 'Ninguna'}`);
+        }
+    });
+
+    // Manejar el cambio de velocidad
+    rateSlider.addEventListener('input', () => {
+        selectedRate = parseFloat(rateSlider.value);
+        rateValue.textContent = selectedRate.toFixed(1);
+        console.log(`Velocidad seleccionada: ${selectedRate}`);
+    });
+
+    // Manejar el cambio de tono
+    pitchSlider.addEventListener('input', () => {
+        selectedPitch = parseFloat(pitchSlider.value);
+        pitchValue.textContent = selectedPitch.toFixed(1);
+        console.log(`Tono seleccionado: ${selectedPitch}`);
     });
 }
 // --- Fin de la nueva sección ---
 
 // --- Nueva sección: Crear estructura principal ---
 function initializeApp() {
-    // Inicializar el selector de voz
-    initializeVoiceSelector();
+    // Inicializar los controles de voz
+    initializeVoiceControls();
 
     // Obtener los contenedores ya definidos en el HTML
     const mainMateriasContainer = document.getElementById('main-materias-container');
@@ -344,10 +387,12 @@ function loadContent(nombreMateriaKey, folderId, nombreTema, paragraphs, buttonE
         activeContainer = container;
         isPaused = false;
 
-        // --- NUEVO: Aplicar la voz seleccionada ---
+        // --- NUEVO: Aplicar configuraciones de voz seleccionadas ---
         if (selectedVoice) {
             activeUtterance.voice = selectedVoice;
         }
+        activeUtterance.rate = selectedRate;
+        activeUtterance.pitch = selectedPitch;
         // --- FIN NUEVO ---
 
         playBtn.disabled = true;

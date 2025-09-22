@@ -291,3 +291,85 @@ button:disabled {
         min-width: 120px;
     }
 }
+/* --- Selector de Voz y Controles --- */
+#voice-controls-container {
+    position: fixed; /* Fijo en la pantalla */
+    top: 20px; /* Distancia desde la parte superior */
+    right: 20px; /* Distancia desde la derecha */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Espacio entre grupos de controles */
+    min-width: 200px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#voice-controls-container label {
+    font-weight: bold;
+    color: #333;
+    font-size: 13px;
+}
+
+#voice-selector {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    color: #333;
+    font-size: 13px;
+    cursor: pointer;
+    min-width: 180px;
+    max-width: 100%;
+}
+
+#voice-rate, #voice-pitch {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Estilos para mostrar el valor de los sliders */
+#rate-value, #pitch-value {
+    font-size: 13px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+}
+
+#voice-selector:focus,
+#voice-rate:focus,
+#voice-pitch:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Ajuste para móviles */
+@media (max-width: 768px) {
+    #voice-controls-container {
+        top: 10px;
+        right: 10px;
+        padding: 10px;
+        font-size: 12px;
+        min-width: 150px;
+    }
+
+    #voice-selector {
+        padding: 4px 8px;
+        font-size: 12px;
+        min-width: 140px;
+    }
+    
+    #rate-value, #pitch-value {
+        font-size: 12px;
+    }
+}
