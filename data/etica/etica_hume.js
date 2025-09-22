@@ -1,3 +1,5 @@
+
+
 const hume_clase_2 = [
     {
         text: "<strong>Temas principales:</strong><br>" +
@@ -67,3 +69,12 @@ const hume_clase_2 = [
               "Las preferencias morales son subjetivamente válidas; decir que son 'irracionales' solo significa que carecen de justificación racional objetiva, no que sean intrínsecamente erróneas."
     }
 ];
+
+
+// --- Objeto que agrupa todos los temas ---
+export const temas = {
+tema: "ética aristotelica",
+temas:{
+'hume_clase_2': hume_clase_2,
+}
+};
