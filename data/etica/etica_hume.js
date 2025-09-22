@@ -48,7 +48,66 @@ export const hume_diapos_primera_clase_2022 = [
               "El empirismo humeano redefine el ámbito legítimo del conocimiento, limitándolo a lo que puede ser contenido en la experiencia sensible o en las relaciones lógico-matemáticas entre ideas, dejando fuera las pretensiones de la metafísica tradicional."
     }
 ];
-
+export const DAVID_HUME_Material_de_apoyo_complementario_clase_1 = [
+    {
+        text: "<strong>Temas principales del material de apoyo 'DAVID HUME Material de apoyo complementario clase 1':</strong><br>" +
+              "• Vida y obra principal de David Hume (1711-1776).<br>" +
+              "• Fundamentos del empirismo humeano: impresiones e ideas.<br>" +
+              "• Distinción entre impresiones simples/complejas y ideas simples/complejas.<br>" +
+              "• Relación entre impresiones e ideas: copia y semejanza.<br>" +
+              "• Principios de asociación de ideas (semejanza, contigüidad, causalidad).<br>" +
+              "• Crítica a la noción de sustancia y al 'Yo' substancial.<br>" +
+              "• Interpretación del 'Yo' como 'haz de percepciones'.<br>" +
+              "• La imaginación y su rol en la formación de ideas.<br>" +
+              "• Críticas internas al propio sistema de Hume.<br>" +
+              "• Relación entre entendimiento, pasiones y la ciencia del hombre.<br>" +
+              "• Primacía del sentimiento/instinto sobre la razón en la naturaleza humana."
+    },
+    {
+        text: "<strong>David Hume: Vida, Obra y Empirismo</strong><br>" +
+              "David Hume (1711-1776) es una figura central del empirismo británico. Su obra fundamental es el <em>'Tratado sobre la naturaleza humana'</em>, del cual se destacan para el estudio ético el Libro II 'Sobre las pasiones' y el Libro III 'Sobre la moral'.<br><br>" +
+              "Hume desarrolla una teoría del conocimiento basada en la experiencia sensible. Establece una distinción fundamental entre:<br>" +
+              "• <u>Impresiones:</u> Percepciones <em>más vivas, fuertes y evidentes</em>, provenientes directamente de la sensación o los sentimientos (ver, sentir, amar, odiar, desear).<br>" +
+              "• <u>Ideas:</u> Imágenes <em>debilitadas</em> de las impresiones en el pensamiento, memoria y razonamiento (recordar un dolor sentido).<br><br>" +
+              "La relación básica es que <em>las ideas son copias de las impresiones</em>. Esta es la base de su empirismo: todo contenido del pensamiento debe derivarse de una experiencia sensorial previa."
+    },
+    {
+        text: "<strong>Tipos de Impresiones e Ideas</strong><br>" +
+              "Hume distingue entre percepciones simples y complejas:<br>" +
+              "• <u>Impresiones simples:</u> Sensaciones elementales, como el color rojo visto en una superficie. Carecen de partes distinguibles.<br>" +
+              "• <u>Impresiones complejas:</u> Combinaciones de impresiones simples, como la visión completa de París desde Montmartre.<br><br>" +
+              "• <u>Ideas simples:</u> Copias directas de impresiones simples (recordar el color rojo). Siempre se parecen a la impresión original.<br>" +
+              "• <u>Ideas complejas:</u> Combinaciones de ideas simples (pueden corresponder a impresiones complejas reales, como recordar París, o ser inventadas, como imaginar un dragón).<br>" +
+              "Esta distinción permite explicar cómo podemos formar ideas de cosas que no hemos percibido directamente."
+    },
+    {
+        text: "<strong>Principios de Asociación de Ideas</strong><br>" +
+              "Hume identifica los mecanismos por los cuales la mente salta de una idea a otra, más allá de la simple repetición de impresiones. Estos principios son:<br>" +
+              "1. <u>Semejanza:</u> Una idea nos lleva a otra parecida (un retrato nos recuerda al original).<br>" +
+              "2. <u>Contigüidad en el tiempo o espacio:</u> Recordar una habitación nos lleva a pensar en otras habitaciones de la misma casa.<br>" +
+              "3. <u>Causalidad:</u> Una herida nos hace pensar en el dolor que causa.<br><br>" +
+              "Estos principios son considerados el <em>'cemento del universo'</em> para Hume, ya que explican cómo la mente enlaza las diversas percepciones y construye la coherencia de nuestra experiencia."
+    },
+    {
+        text: "<strong>Crítica al 'Yo' Substancial</strong><br>" +
+              "Hume aplica su análisis empirista al concepto del <em>'Yo'</em> o <em>'self'</em>.<br><br>" +
+              "Argumenta que cuando introspectivamente buscamos el 'Yo', <em>no encontramos una sustancia simple e idéntica</em> que permanezca a través del tiempo, sino una <em>serie de percepciones</em> (impresiones e ideas) sucesivas.<br><br>" +
+              "Rechaza la idea cartesiana de un <em>'Yo' como sustancia pensante</em>. En cambio, propone una interpretación según la cual el 'Yo' es un <em>'collar imaginario en el que se han insertado las cuentas'</em> o, más claramente, <em>'no soy nada más que un haz de percepciones'</em>.<br><br>" +
+              "La <em>identidad personal</em> no es una identidad de una substancia, sino una <em>identidad ficticia</em> creada por la imaginación que enlaza las percepciones similares o contiguas."
+    },
+    {
+        text: "<strong>Consecuencias y Problemas del Sistema</strong><br>" +
+              "Esta visión del 'Yo' lleva a una paradoja: si somos solo un haz de percepciones, <em>¿quién o qué es el sujeto consciente que experimenta este haz?</em><br><br>" +
+              "Hume reconoce la dificultad de responder <em>quién imagina el 'collar'</em> o <em>cómo esta serie de percepciones es consciente de sí misma</em>. Su respuesta es escéptica: <em>'la cuestión es demasiado difícil para él'</em>.<br><br>" +
+              "Además, se plantean críticas internas: el propio sistema de Hume descansa en la noción de 'idea', que podría implicar un residuo metafísico (la sustancia pensante de Descartes), aunque él la haya desechado. Señala que Hume <em>descarta la noción de sustancia pero mantiene sus productos</em>, intentando reconstruir el mundo del sentido común."
+    },
+    {
+        text: "<strong>Naturaleza Humana: Razón y Sentimiento</strong><br>" +
+              "Hume ubica el estudio del entendimiento y las pasiones como fundamental porque <em>de ellos dependen todos los juicios y las acciones humanas</em>, desde descubrimientos científicos hasta convicciones morales.<br><br>" +
+              "Propone que la <em>naturaleza humana es más sentimiento o instinto que razón</em>. La razón misma es interpretada como una especie de <em>manifestación de la naturaleza instintiva del hombre</em>.<br><br>" +
+              "Esto lleva a concebir una <em>'ciencia del hombre'</em> que estudie sistemáticamente estos elementos, considerando que la filosofía debe partir de una observación rigurosa de la experiencia humana tal como es, no como se desea que sea."
+    }
+];
 const hume_clase_2 = [
     {
         text: "<strong>Temas principales:</strong><br>" +
@@ -125,6 +184,7 @@ export const temas = {
 tema: "ética hume",
 temas:{
 "hume_diapos_primera_clase_2022":hume_diapos_primera_clase_2022,
+"Material_de_apoyo":DAVID_HUME_Material_de_apoyo_complementario_clase_1,
 'hume_clase_2': hume_clase_2,
 }
 };
