@@ -11,22 +11,48 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
 }
-.tema {
-    display: block;
-    margin: 30px auto;
+
+/* --- NUEVO: Estilos para el contenedor y botones de temas --- */
+#themes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button.tema {
+    /* Hereda estilos generales de 'button' */
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 16px; /* Ajustado desde 18px para mejor equilibrio */
     font-weight: bold;
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Añadido transform y box-shadow */
+    flex-shrink: 0; /* Evita que los botones se encojan */
+    margin: 0; /* Resetear margen de .tema original */
+    display: inline-flex; /* Para mejor alineación si el texto cambia */
+    align-items: center;
+    justify-content: center;
 }
-.tema:hover {
+button.tema:hover {
     background-color: #0056b3;
+    /* Añadir efecto hover similar al de otros botones */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+button.tema:disabled {
+    background-color: #6c757d; /* Color para botones deshabilitados */
+    cursor: not-allowed;
+    opacity: 0.6;
+    transform: none; /* Quitar transform en estado deshabilitado */
+    box-shadow: none;
+}
+/* --- FIN NUEVO --- */
+
 .paragraph-container {
     background: white;
     padding: 30px;

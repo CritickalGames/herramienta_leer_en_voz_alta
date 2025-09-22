@@ -1,16 +1,68 @@
 // Datos en formato JSON (sin id)
 import {
-    etica1
+    primera_clase,
+    segunda_clase,
+    etica_aristotelica_3,
+    acercaDelAlma3_10,
+    etica2_virtud,
+    etica3_intelectuales,
     // Puedes importar más temas aquí
 } from "./data/etica.js";
 
+// --- Nueva sección: Configuración de temas ---
+// Creamos un objeto para mapear nombres de temas con sus datos
+// Esto facilita la creación dinámica de botones y la carga de contenido
+const temas = {
+    'primera_clase': primera_clase,
+    'segunda_clase': segunda_clase,
+    'etica_aristotelica_3': etica_aristotelica_3,
+    'acercaDelAlma3_10': acercaDelAlma3_10,
+    'etica2_virtud': etica2_virtud,
+    'etica3_intelectuales': etica3_intelectuales,
+    // Añade más temas aquí siguiendo el patrón: 'nombreTema': nombreTema
+};
+
+let currentlyLoadedButton = null; // Variable para rastrear el botón del tema actualmente cargado
+
+// Función para crear los botones de temas dinámicamente
+function createThemeButtons() {
+    const themesContainer = document.getElementById('themes-container');
+    themesContainer.innerHTML = ''; // Limpiar cualquier contenido previo
+
+    for (const [nombreTema, datosTema] of Object.entries(temas)) {
+        // Crear el botón
+        const button = document.createElement('button');
+        button.className = 'tema'; // Clase CSS
+        button.textContent = `Tema: ${nombreTema}`; // Texto del botón
+        button.dataset.tema = nombreTema; // Almacenar el nombre del tema en un atributo data
+
+        // Añadir el botón al contenedor
+        themesContainer.appendChild(button);
+    }
+}
+
+// Llamar a la función para crear los botones cuando se cargue el script
+createThemeButtons();
+// --- Fin de la nueva sección ---
+
 // Función para cargar el contenido basado en el tema seleccionado
-function loadContent(paragraphs) {
+function loadContent(paragraphs, buttonElement) { // Añadido buttonElement como parámetro
     const contentContainer = document.getElementById('content-container');
     const speechSynthesis = window.speechSynthesis;
     let activeUtterance = null;
     let activeContainer = null;
     let isPaused = false; // Bandera para controlar el estado de pausa
+
+    // --- Modificación: Resetear botones de temas y estado anterior ---
+    resetAllButtons(); // Esto reactivará el botón del tema anterior
+    if (currentlyLoadedButton) {
+        // Opcionalmente, revertir el texto del botón anterior si se cambió
+        // (Ajusta esto según cómo quieras que se vea el botón "cargado")
+        if (currentlyLoadedButton.textContent.includes("(Cargado)")) {
+             currentlyLoadedButton.textContent = currentlyLoadedButton.textContent.replace(" (Cargado)", "");
+        }
+    }
+    // --- Fin de la modificación ---
 
     // Limpiar contenido anterior si existe
     contentContainer.innerHTML = '';
@@ -22,7 +74,7 @@ function loadContent(paragraphs) {
 
         const paragraph = document.createElement('p');
         // Aplicar mejora: Interpretar HTML dentro del texto
-        paragraph.innerHTML = item.text; 
+        paragraph.innerHTML = item.text;
 
         const controls = document.createElement('div');
         controls.className = 'paragraph-controls';
@@ -84,12 +136,20 @@ function loadContent(paragraphs) {
     // Mostrar el contenido
     contentContainer.style.display = 'block';
 
+    // --- Modificación: Cambiar texto y estado del botón específico ---
+    if (buttonElement) {
+        buttonElement.textContent = `${buttonElement.textContent} (Cargado)`;
+        buttonElement.disabled = true;
+        currentlyLoadedButton = buttonElement; // Registrar el botón actualmente cargado
+    }
+    // --- Fin de la modificación ---
+
     // Función para iniciar lectura
     function startReading(container, paragraph, playBtn, pauseBtn, stopBtn) {
         // Cancelar cualquier lectura activa anterior
         if (activeUtterance) {
             speechSynthesis.cancel();
-            resetAllButtons();
+            resetControlButtons(); // Solo resetear botones de control aquí
         }
 
         clearAllHighlights();
@@ -99,7 +159,7 @@ function loadContent(paragraphs) {
         activeContainer = container;
         isPaused = false; // Reiniciar estado de pausa
 
-        // Configurar estado de botones
+        // Configurar estado de botones de control
         playBtn.disabled = true;
         pauseBtn.disabled = false;
         stopBtn.disabled = false;
@@ -143,8 +203,8 @@ function loadContent(paragraphs) {
         document.querySelectorAll('p').forEach(p => p.classList.remove('highlight'));
     }
 
-    // Función para reiniciar todos los botones a su estado inicial
-    function resetAllButtons() {
+    // Función para reiniciar solo los botones de control de audio
+    function resetControlButtons() {
         document.querySelectorAll('.play-btn').forEach(btn => {
             btn.disabled = false;
             btn.textContent = "▶ Play";
@@ -155,16 +215,40 @@ function loadContent(paragraphs) {
         });
         document.querySelectorAll('.stop-btn').forEach(btn => btn.disabled = true);
     }
+
+    // Función para limpiar resaltados y reiniciar todos los botones (control y temas)
+    function resetAllButtons() {
+        resetControlButtons();
+        // Reactivar todos los botones de tema
+        document.querySelectorAll('.tema').forEach(btn => {
+            btn.disabled = false;
+            // Opcionalmente, revertir el texto si se cambió
+            // (Ajusta esto según cómo quieras que se vea el botón "cargado")
+             if (btn.textContent.includes("(Cargado)")) {
+                 btn.textContent = btn.textContent.replace(" (Cargado)", "");
+             }
+        });
+    }
 }
 
-// Añadir el evento listener al botón de tema
-document.getElementById('etica1').addEventListener('click', () => {
-    loadContent(etica1);
-    // Opcional: Cambiar el texto del botón después de cargar
-    const btn = document.getElementById('etica1');
-    btn.textContent = 'Tema 1 (Cargado)';
-    btn.disabled = true;
+// --- Nueva sección: Event Listener genérico ---
+// Añadimos un solo event listener al contenedor de temas
+// que manejará los clics en los botones hijos con clase 'tema'
+document.getElementById('themes-container').addEventListener('click', (event) => {
+    // Verificar si el elemento clickeado es un botón con la clase 'tema'
+    if (event.target.classList.contains('tema')) {
+        const nombreTema = event.target.dataset.tema; // Obtener el nombre del tema del atributo data
+        const datosTema = temas[nombreTema]; // Obtener los datos del tema del objeto 'temas'
+
+        if (datosTema) {
+            // Llamar a loadContent pasando los datos del tema y el elemento botón
+            loadContent(datosTema, event.target);
+        } else {
+            console.error(`Tema '${nombreTema}' no encontrado.`);
+        }
+    }
 });
+// --- Fin de la nueva sección ---
 
 // Limpiar cualquier lectura activa al salir
 window.addEventListener('beforeunload', () => {
