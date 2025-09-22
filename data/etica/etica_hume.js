@@ -108,6 +108,63 @@ export const DAVID_HUME_Material_de_apoyo_complementario_clase_1 = [
               "Esto lleva a concebir una <em>'ciencia del hombre'</em> que estudie sistemáticamente estos elementos, considerando que la filosofía debe partir de una observación rigurosa de la experiencia humana tal como es, no como se desea que sea."
     }
 ];
+const rasgos_de_la_modernidad_conill = [
+    {
+        text: "<strong>Temas principales:</strong><br>" +
+              "• Transición de la ética antigua a la moderna<br>" +
+              "• Cambio de paradigma: del 'ser' al 'deber ser'<br>" +
+              "• Surgimiento del individuo autónomo y la subjetividad<br>" +
+              "• La razón como fundamento de la moral, separada de la religión<br>" +
+              "• Ética centrada en la conciencia moral y el deber<br>" +
+              "• El contrato social como base de la comunidad política<br>" +
+              "• La Modernidad como proyecto de emancipación y racionalización"
+    },
+    {
+        text: "<strong>La ruptura con la Antigüedad</strong><br>" +
+              "La ética moderna representa una profunda transformación respecto a la ética antigua. Mientras los griegos centraban la moral en el <em>'ser'</em> y la realización de la <em>eudaimonía</em> (felicidad) en el seno de la comunidad política, la Modernidad desplaza el foco hacia el <em>'deber ser'</em>.<br>" +
+              "El bien supremo ya no es una vida plena y virtuosa, sino el cumplimiento del <strong>deber moral</strong> por sí mismo, guiado por la razón autónoma del individuo."
+    },
+    {
+        text: "<strong>El surgimiento del individuo autónomo</strong><br>" +
+              "Uno de los rasgos definitorios de la Modernidad es la emergencia del <strong>individuo</strong> como sujeto moral autónomo. Este individuo ya no deriva su identidad y sus valores exclusivamente de su pertenencia a una comunidad (como la <em>polis</em> griega), sino que se constituye a sí mismo mediante el ejercicio de su razón.<br>" +
+              "La <strong>subjetividad</strong> se convierte en el punto de partida de la reflexión ética. La moral ya no es algo dado por la naturaleza o la tradición, sino algo que el sujeto debe descubrir o construir racionalmente."
+    },
+    {
+        text: "<strong>La razón como fundamento de la moral</strong><br>" +
+              "La Modernidad seculariza la ética. La razón se erige como la única autoridad legítima para fundamentar los principios morales, reemplazando a la religión, la tradición o la autoridad comunitaria.<br>" +
+              "Filósofos como Kant buscan establecer una <strong>ética racional</strong> y universal, válida para todo ser humano en tanto que ser racional. La moral se convierte en un sistema de leyes que la razón se da a sí misma."
+    },
+    {
+        text: "<strong>La conciencia moral y el imperativo categórico</strong><br>" +
+              "El núcleo de la ética moderna es la <strong>conciencia moral</strong>, entendida como la capacidad del individuo para discernir el bien del mal mediante la razón.<br>" +
+              "La acción moralmente buena no es la que produce felicidad, sino la que se realiza por <strong>deber</strong>, es decir, por respeto a la ley moral. Esta ley, formulada como un <em>imperativo categórico</em>, exige actuar según máximas que puedan ser universalizadas, independientemente de las consecuencias o inclinaciones personales."
+    },
+    {
+        text: "<strong>El contrato social y la comunidad política</strong><br>" +
+              "La comunidad política ya no se concibe como una entidad natural (como la <em>polis</em>), sino como un <strong>artificio</strong> creado por individuos libres y racionales mediante un <em>contrato social</em>.<br>" +
+              "El Estado y sus leyes derivan su legitimidad del consentimiento de los individuos, cuyo objetivo es garantizar la libertad, la seguridad y los derechos de cada uno. La política se separa de la ética, convirtiéndose en una esfera técnica para la convivencia, mientras que la moral se reserva al ámbito privado de la conciencia individual."
+    },
+    {
+        text: "<strong>La Modernidad como proyecto de emancipación</strong><br>" +
+              "La ética moderna está íntimamente ligada a un proyecto más amplio: la <strong>emancipación</strong> del ser humano. Se trata de liberar al individuo de las ataduras de la autoridad dogmática, la tradición irreflexiva y la superstición.<br>" +
+              "Este proyecto se basa en la fe en el poder de la razón para iluminar todos los aspectos de la vida humana, desde la ciencia y la política hasta la moral. La <strong>autonomía</strong> del sujeto racional es el ideal supremo."
+    },
+    {
+        text: "<strong>La racionalización de la vida social</strong><br>" +
+              "La Modernidad impulsa un proceso de <strong>racionalización</strong> que afecta a todas las esferas de la vida. La ética no es una excepción: se busca sistematizar los principios morales, hacerlos coherentes y universales, como las leyes de la naturaleza.<br>" +
+              "Este enfoque técnico y racionalista busca eliminar la ambigüedad y la particularidad, pero también puede llevar a una deshumanización, al reducir la riqueza de la experiencia moral a un conjunto de reglas abstractas."
+    },
+    {
+        text: "<strong>Las tensiones internas del proyecto moderno</strong><br>" +
+              "A pesar de su coherencia interna, el proyecto ético moderno enfrenta tensiones fundamentales. La exaltación de la autonomía individual puede chocar con la necesidad de comunidad y pertenencia.<br>" +
+              "La separación entre hechos y valores, y la imposibilidad de derivar el 'deber ser' del 'ser', crea un abismo que la razón pura no siempre puede salvar. La universalidad de la ley moral puede ignorar las circunstancias particulares y los sentimientos humanos."
+    },
+    {
+        text: "<strong>Legado y crítica</strong><br>" +
+              "La ética moderna legó conceptos fundamentales como la <strong>dignidad humana</strong>, los <strong>derechos individuales</strong> y la <strong>autonomía moral</strong>, que son pilares de las sociedades democráticas contemporáneas.<br>" +
+              "Sin embargo, también ha sido objeto de crítica por su formalismo, su individualismo abstracto y su incapacidad para motivar la acción moral más allá del deber. Pensadores posteriores buscarán superar estas limitaciones, integrando la razón con la emoción, lo universal con lo particular, y el individuo con la comunidad."
+    }
+];
 const hume_clase_2 = [
     {
         text: "<strong>Temas principales:</strong><br>" +
@@ -255,6 +312,7 @@ tema: "ética hume",
 temas:{
 "hume_diapos_primera_clase_2022":hume_diapos_primera_clase_2022,
 "Material_de_apoyo":DAVID_HUME_Material_de_apoyo_complementario_clase_1,
+"rasgos_de_la_modernidad_conill": rasgos_de_la_modernidad_conill,
 'hume_clase_2': hume_clase_2,
 'ley_de_hume_y_sentimiento_moral': ley_de_hume_y_sentimiento_moral
 }
