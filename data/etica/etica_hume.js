@@ -122,7 +122,7 @@ const hume_clase_2 = [
 
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
-tema: "ética aristotelica",
+tema: "ética hume",
 temas:{
 "hume_diapos_primera_clase_2022":hume_diapos_primera_clase_2022,
 'hume_clase_2': hume_clase_2,
