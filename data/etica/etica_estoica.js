@@ -79,62 +79,66 @@ const estoicos_clases = [
               "• Cosmología: mundo único, eterno retorno, conflagración universal.<br>" +
               "• Determinismo y destino.<br>" +
               "• Fatalismo vs. determinismo.<br>" +
-              "• Libertad y necesidad (ejemplo del cilindro).<br>" +
+              "• Libertad y necesidad (ejemplo del cilindro de Crisipo).<br>" +
               "• Fin humano: vivir conforme a la naturaleza.<br>" +
               "• Virtud, naturaleza individual y universal.<br>" +
               "• Ética: seguir el destino, incluso hasta el suicidio.<br>" +
               "• Pasiones: origen, clasificación, extirpación.<br>" +
               "• Eudaimonía y unidad de virtudes.<br>" +
               "• Acciones: obligación, conveniencia.<br>" +
-              "• Fragmentos de Heráclito sobre el logos y el fuego."
+              "• Fragmentos de Heráclito sobre el logos y el fuego.<br><br>" +
+              "<u>Nota:</u> Se trata de una síntesis del estoicismo clásico, con énfasis en Zenón, Cleantes y Crisipo."
     },
     {
         text: "<strong>Conocimiento y Cosmología</strong><br>" +
-              "• <u>Impresión:</u> percepción sensorial.<br>" +
-              "• <u>Asentimiento:</u> aceptación de la impresión.<br>" +
-              "• <u>Cognición:</u> conocimiento verdadero.<br><br>" +
-              "• Mundo único: unión de logos y materia.<br>" +
-              "• Proceso cíclico: eterno retorno.<br>" +
-              "• Final: conflagración universal (retorno al fuego)."
+              "• <u>Impresión:</u> percepción sensorial inmediata, equivalente a la evidencia de los sentidos.<br>" +
+              "• <u>Asentimiento:</u> aceptación racional de la impresión como verdadera.<br>" +
+              "• <u>Cognición:</u> conocimiento verdadero derivado de impresión + asentimiento.<br><br>" +
+              "• <u>Mundo único:</u> universo racional y ordenado por el logos, donde todo está interconectado.<br>" +
+              "• <u>Eterno retorno:</u> ciclo cósmico donde el universo se destruye y renace en una conflagración (ekpyrosis).<br>" +
+              "• <u>Conflagración universal:</u> fuego como principio último y regenerador del cosmos."
     },
     {
         text: "<strong>Determinismo, destino y libertad</strong><br>" +
-              "• Todo tiene causa antecedente (determinismo).<br>" +
-              "• <u>Fatalismo ≠ Determinismo:</u> fatalismo = pasividad; determinismo estoico = acción racional en marco causal.<br>" +
-              "• <u>Causas:</u> próximas (externas) y principales (naturaleza racional).<br>" +
-              "• <u>Cilindro de Crisipo:</u> estímulo externo inicia, impulso propio continúa → analogía del alma."
+              "• Todo evento tiene causa antecedente (determinismo causal).<br>" +
+              "• <u>Fatalismo ≠ Determinismo:</u> fatalismo implica pasividad; determinismo estoico permite acción racional dentro del marco causal.<br>" +
+              "• <u>Causas:</u> próximas (externas) y principales (principio racional del cosmos/logos).<br>" +
+              "• <u>Cilindro de Crisipo:</u> analogía que muestra que estímulo externo inicia acción, pero el alma racional puede continuar la acción de forma coherente con la naturaleza."
     },
     {
         text: "<strong>Fin humano y virtud</strong><br>" +
-              "• Fin = vivir conforme a la naturaleza.<br>" +
-              "• <u>Cleantes:</u> armonía con la naturaleza.<br>" +
-              "• <u>Crisipo:</u> vivir según experiencia de sucesos naturales.<br>" +
-              "• Implica vivir según naturaleza racional + universal (Zeus/logos).<br>" +
-              "• Virtud = clave para vida feliz.<br>" +
-              "• Consecuencia: aceptar destino, incluso hasta el suicidio."
+              "• <u>Fin humano:</u> vivir conforme a la naturaleza (física y racional).<br>" +
+              "• <u>Cleantes:</u> armonía entre vida humana y orden natural del cosmos.<br>" +
+              "• <u>Crisipo:</u> ética basada en la comprensión de sucesos naturales y aceptación de causalidad.<br>" +
+              "• Implica vivir de acuerdo con la razón y la universalidad (identificada con Zeus/logos).<br>" +
+              "• <u>Virtud:</u> conocimiento práctico y disposición de actuar según la naturaleza; condición suficiente para la eudaimonía.<br>" +
+              "• Consecuencia ética: aceptación del destino, incluyendo la posibilidad del suicidio si las circunstancias impiden la vida virtuosa."
     },
     {
         text: "<strong>Pasiones</strong><br>" +
-              "• Nacen de juicios erróneos sobre bien y mal.<br>" +
-              "• Al corregir juicios → extirpación de la pasión.<br>" +
+              "• Origen: juicios erróneos sobre lo que es bueno o malo.<br>" +
+              "• Extirpación: corregir los juicios → desaparición de la pasión.<br>" +
               "• Clasificación:<br>" +
-              "&nbsp;&nbsp;– Placer y dolor (objetos presentes).<br>" +
-              "&nbsp;&nbsp;– Deseo y temor (objetos futuros)."
+              "&nbsp;&nbsp;– <u>Placer y dolor:</u> relativos a objetos presentes.<br>" +
+              "&nbsp;&nbsp;– <u>Deseo y temor:</u> relativos a objetos futuros.<br>" +
+              "• Meta estoica: lograr apatheia (liberación de pasiones irracionales) mediante la razón."
     },
     {
         text: "<strong>Eudaimonía, virtudes y acciones</strong><br>" +
-              "• Eudaimonía = posesión de la virtud.<br>" +
-              "• A diferencia de Aristóteles, basta un instante de sabiduría para ser feliz.<br>" +
-              "• Unidad de virtudes: todas son una.<br>" +
-              "• <u>Acciones:</u> obligación (officium) = acción conforme a la naturaleza.<br>" +
-              "• Tipos: conformes, contrarias, neutras."
+              "• <u>Eudaimonía:</u> posesión de la virtud; no depende de fortuna externa.<br>" +
+              "• A diferencia de Aristóteles, basta un instante de sabiduría práctica para alcanzar la felicidad.<br>" +
+              "• Unidad de virtudes: todas las virtudes (sabiduría, coraje, justicia, templanza) son interdependientes y forman un todo.<br>" +
+              "• <u>Acciones:</u> obligaciones (officium) = acciones conformes a la naturaleza.<br>" +
+              "• Tipos: acciones conformes, contrarias o neutras respecto a la naturaleza y la virtud."
     },
     {
         text: "<strong>Suicidio y conclusión</strong><br>" +
-              "• Si condiciones impiden vida virtuosa, el deber puede ser abandonar la vida.<br>" +
-              "• Cita de Heráclito (B 30): el cosmos eterno es fuego viviente, que se enciende y se apaga según medida."
+              "• El suicidio es permisible si las condiciones externas impiden cumplir la vida virtuosa; es un acto racional de autonomía.<br>" +
+              "• Cita de Heráclito (B 30): el cosmos es fuego viviente que se enciende y apaga según medida, reflejando la naturaleza cíclica y racional del universo.<br>" +
+              "• Conclusión: el estoicismo busca armonía con la naturaleza, control interno, eliminación de pasiones irracionales y acción conforme a la razón universal."
     }
 ];
+
 
 
 // --- Objeto que agrupa todos los temas ---
