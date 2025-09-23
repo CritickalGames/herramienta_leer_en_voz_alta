@@ -141,8 +141,8 @@ const estoicos_clases = [
 export const temas = {
 tema: "ética estoica",
 temas:{
-'suicidio_en_estoicos': suicidio_en_estoicos, 
 'maximas_epicteto': maximas_epicteto,
+'suicidio_en_estoicos': suicidio_en_estoicos, 
 'estoicos_clases': estoicos_clases,
 }
 };
