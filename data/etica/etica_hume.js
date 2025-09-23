@@ -358,8 +358,8 @@ export const temas = {
 tema: "ética hume",
 temas:{
 "hume_diapos_primera_clase_2022":hume_diapos_primera_clase_2022,
-"Material_de_apoyo":DAVID_HUME_Material_de_apoyo_complementario_clase_1,
 "rasgos_de_la_modernidad_conill": rasgos_de_la_modernidad_conill,
+"Material_de_apoyo":DAVID_HUME_Material_de_apoyo_complementario_clase_1,
 'hume_clase_2': hume_clase_2,
 'ley_de_hume_y_sentimiento_moral': ley_de_hume_y_sentimiento_moral,
 "Algunas Reflexiones Sobre La Falacia Naturalista":Dialnet_AlgunasReflexionesSobreLaFalaciaNaturalistaSobreLa_6520936_1
