@@ -830,6 +830,268 @@ const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurre
               "El Estado no es una “máquina” externa a la economía, sino una forma histórica de la relación capital-trabajo. Su estructura y funciones evolucionan con la acumulación de capital. Aunque actúa en la esfera política, su dinámica está determinada por las contradicciones económicas del sistema. Por eso, su intervención —aunque a veces parezca técnica o neutral— siempre responde a la necesidad de preservar el orden capitalista y facilitar la extracción de plusvalor."
     }
 ];
+const Esquema_breve_de_Revoluciones_industriales_y_científico_tecnológicas = [
+    {
+        text: "<strong>Temas principales:</strong><br>" +
+              "• Tres grandes revoluciones industriales y científico-tecnológicas desde el siglo XVIII.<br>" +
+              "• Características técnicas, económicas y geopolíticas de cada revolución.<br>" +
+              "• Papel del Estado, la guerra y la globalización en los procesos de transformación tecnológica.<br>" +
+              "• Transición hacia una posible Cuarta Revolución Industrial.<br>" +
+              "• Relación entre innovación, acumulación de capital y reconfiguración del orden mundial."
+    },
+    {
+        text: "<strong>Primera Revolución Industrial (mediados del siglo XVIII)</strong><br>" +
+              "• Mecanización de la agricultura y manufacturas.<br>" +
+              "• Uso generalizado de la máquina de vapor.<br>" +
+              "• Reemplazo progresivo de la mano de obra por máquinas.<br><br>" +
+              "<strong>Factores que explican el liderazgo británico:</strong><br>" +
+              "• Revolución agrícola impulsada por cercamientos y legislación parlamentaria.<br>" +
+              "• Abundancia de carbón barato y accesible.<br>" +
+              "• Presión competitiva por competir con los textiles indios.<br>" +
+              "• Acumulación de riqueza mediante el comercio colonial.<br>" +
+              "• Demanda de armamento que impulsó la producción en serie y la eficiencia industrial."
+    },
+    {
+        text: "<strong>Segunda Revolución Industrial (1870–1890)</strong><br>" +
+              "• Producción en masa y uso de la electricidad.<br>" +
+              "• Desarrollo del motor de combustión interna → auge del petróleo y el gas.<br>" +
+              "• Proceso Bessemer: producción barata y rápida de acero.<br>" +
+              "• Expansión masiva de ferrocarriles, fábricas y redes de telégrafo.<br><br>" +
+              "<strong>Consecuencias:</strong><br>" +
+              "• Explosión del crecimiento económico.<br>" +
+              "• Primera ola de globalización.<br>" +
+              "• Surgimiento de grandes corporaciones modernas (ej. ferrocarriles en EE.UU.).<br>" +
+              "• Nuevas relaciones entre Estado y capital.<br>" +
+              "• Competencia geopolítica por el acero entre EE.UU., Reino Unido, Alemania, Francia y Japón."
+    },
+    {
+        text: "<strong>Impacto geopolítico de la Segunda Revolución Industrial</strong><br>" +
+              "• Alemania usó los ferrocarriles para integrar su territorio y movilizar tropas.<br>" +
+              "• Rusia diseñó sus ferrocarriles con ancho de vía distinto para dificultar invasiones, pero limitó su desarrollo económico.<br>" +
+              "• Gran Bretaña desarrolló un sistema financiero global y la armada más poderosa, dominando el comercio marítimo.<br>" +
+              "• Surgimiento de nuevas potencias industriales (EE.UU., Alemania, Japón) que desafiaron el orden europeo.<br>" +
+              "• La industrialización por sustitución de importaciones en Europa del Este fracasó al basarse en sectores tecnológicamente obsoletos."
+    },
+    {
+        text: "<strong>Tercera Revolución Industrial (mediados del siglo XX)</strong><br>" +
+              "• Revolución digital: transistores, microprocesadores y computación.<br>" +
+              "• Auge de la energía nuclear, tanto civil como militar.<br>" +
+              "• Las armas nucleares se convirtieron en condición para el estatus de gran potencia (EE.UU., URSS, Reino Unido, Francia, China).<br>" +
+              "• Liderazgo tecnológico y militar de EE.UU., consolidando su hegemonía geoeconómica.<br>" +
+              "• Formación de cadenas globales de valor y nueva ola de globalización, facilitada por:<br>" +
+              "&nbsp;&nbsp;– Caída de los costos de transporte,<br>" +
+              "&nbsp;&nbsp;– Liberalización económica,<br>" +
+              "&nbsp;&nbsp;– División internacional del trabajo."
+    },
+    {
+        text: "<strong>Transformaciones sociales y económicas de la era digital</strong><br>" +
+              "• Auge de Internet, computadoras personales y sistemas operativos (ej. Microsoft) en los años 90.<br>" +
+              "• La información y la tecnología se convierten en mercancías intangibles.<br>" +
+              "• A diferencia de bienes físicos, su valor no se degrada con el consumo; puede reproducirse ilimitadamente.<br>" +
+              "• Intensificación de la competencia por el control de la información y la narrativa pública.<br>" +
+              "• Transición gradual de combustibles fósiles hacia energías renovables, en respuesta a la crisis ecológica."
+    },
+    {
+        text: "<strong>Hacia una Cuarta Revolución Industrial</strong><br>" +
+              "• Término acuñado por Klaus Schwab.<br>" +
+              "• No es un quiebre radical, sino una profundización de la revolución digital.<br>" +
+              "• Se basa en tecnologías heredadas de la Tercera Revolución: chips, superconductores, redes digitales.<br>" +
+              "• Su novedad radica en:<br>" +
+              "&nbsp;&nbsp;- Mayor velocidad operativa,<br>" +
+              "&nbsp;&nbsp;- Mayor versatilidad de los sistemas,<br>" +
+              "&nbsp;&nbsp;- Integración de lo físico, lo digital y lo biológico (aunque esto último no se desarrolla en el texto).<br>" +
+              "• Plantea interrogantes sobre si se trata de una verdadera revolución o de una evolución acelerada del paradigma digital."
+    }
+];
+const ESintesisM1S72024 = [
+    {
+        text: "<strong>Temas principales:</strong><br>" +
+              "• Orígenes y evolución de la economía política: del mercantilismo y la fisiocracia a la economía clásica y marxista.<br>" +
+              "• Dos preguntas centrales de la economía política: ¿cómo se genera la riqueza? y ¿cómo se distribuye?<br>" +
+              "• Crítica a la economía ortodoxa (neoclásica): desplazamiento del análisis de clase y ocultamiento de las contradicciones del capitalismo.<br>" +
+              "• Contraste entre la teoría laboral del valor (objetiva) y la teoría subjetiva del valor (utilidad marginal).<br>" +
+              "• Relevancia empírica y actualidad de la teoría del valor-trabajo en el análisis del capitalismo contemporáneo."
+    },
+    {
+        text: "<strong>La economía política: orígenes y enfoque</strong><br>" +
+              "La economía política surgió como disciplina en el siglo XVII y se desarrolló con el mercantilismo, la fisiocracia, la economía clásica (Smith, Ricardo) y, de forma crítica, con Marx. Su enfoque integraba economía, poder político y organización social, y se centraba en dos preguntas fundamentales:<br>" +
+              "1. ¿Cómo se genera la riqueza?<br>" +
+              "2. ¿Cómo se distribuye entre las clases sociales?<br><br>" +
+              "Este enfoque histórico y estructural buscaba comprender las relaciones de producción y explotación propias del capitalismo."
+    },
+    {
+        text: "<strong>La reacción ortodoxa: emergencia de la economía neoclásica</strong><br>" +
+              "A fines del siglo XIX, la economía política fue desplazada por la corriente neoclásica, que reorientó el análisis económico hacia:<br>" +
+              "• El equilibrio de mercado,<br>" +
+              "• La racionalidad individual,<br>" +
+              "• La eficiencia allocativa.<br><br>" +
+              "Según Guerrero (2004), esta transición no fue neutral: buscó evadir la realidad de la explotación y los conflictos de clase, reemplazándola por un “mundo ilusorio” de equilibrios y óptimos teóricos."
+    },
+    {
+        text: "<strong>Críticas a la economía ortodoxa</strong><br>" +
+              "La economía neoclásica se basa en supuestos poco realistas:<br>" +
+              "• Racionalidad perfecta y mercados competitivos ideales.<br>" +
+              "• Individuos aislados, sin contexto histórico, social o institucional.<br>" +
+              "• Exclusión de dimensiones éticas y políticas (justicia, equidad, sostenibilidad).<br><br>" +
+              "Sus modelos se desarrollan en un “vacío teórico”, con escasa validación empírica y poca capacidad para explicar crisis, desigualdad o dinámicas reales del capitalismo."
+    },
+    {
+        text: "<strong>Teoría del valor: dos paradigmas enfrentados</strong><br>" +
+              "La diferencia fundamental entre economía política y economía neoclásica radica en la teoría del valor:<br>" +
+              "• <strong>Economía política:</strong> valor determinado por el <em>trabajo socialmente necesario</em>.<br>" +
+              "• <strong>Economía neoclásica:</strong> valor determinado por la <em>utilidad marginal</em> percibida por el consumidor.<br><br>" +
+              "Esta divergencia implica visiones opuestas sobre la justicia, la explotación y el funcionamiento del sistema económico."
+    },
+    {
+        text: "<strong>Teoría subjetiva del valor (neoclásica)</strong><br>" +
+              "• El valor de un bien depende de la satisfacción que reporta al consumidor (utilidad marginal).<br>" +
+              "• El precio se determina en el equilibrio entre oferta y demanda.<br>" +
+              "• Se asume que los mercados alcanzan un equilibrio general que maximiza utilidad y beneficios.<br><br>" +
+              "Como dice Jevons (1871): <em>“El valor depende enteramente de la utilidad”</em>, rechazando explícitamente al trabajo como fuente del valor."
+    },
+    {
+        text: "<strong>Teoría laboral del valor (economía política)</strong><br>" +
+              "• El valor de una mercancía está determinado por el <em>tiempo de trabajo socialmente necesario</em> para producirla.<br>" +
+              "• Se distingue entre <em>valor de uso</em> (utilidad) y <em>valor de cambio</em> (trabajo incorporado).<br>" +
+              "• La <em>plusvalía</em> surge porque los trabajadores producen más valor del que reciben en salarios.<br>" +
+              "• El <em>precio de producción</em> se forma a partir del valor, pero se modifica por la competencia y la tasa media de ganancia."
+    },
+    {
+        text: "<strong>Validación empírica de la teoría del valor-trabajo</strong><br>" +
+              "Contrariamente a la creencia dominante, la teoría laboral del valor ha sido sometida a rigurosas pruebas empíricas:<br>" +
+              "• Shaikh y Tonak (1996): demostraron la convergencia entre valores, precios de producción y precios de mercado.<br>" +
+              "• Shaikh (1995): mostró la “fuerza empírica” de la teoría del valor-trabajo.<br>" +
+              "• Delaunay (1984): estimó la tasa de plusvalía en Francia desde fines del siglo XIX.<br><br>" +
+              "Estos estudios confirman la utilidad analítica del enfoque marxista para entender la dinámica real del capitalismo."
+    },
+    {
+        text: "<strong>Temas actuales de investigación en economía política</strong><br>" +
+              "La economía política sigue vigente y se adapta a nuevos desafíos:<br>" +
+              "1. <strong>Valor y producción inmaterial:</strong> ¿cómo se crea valor en servicios, información y tecnología?<br>" +
+              "2. <strong>Valor global:</strong> análisis de la generación y apropiación de plusvalía en cadenas globales de valor.<br>" +
+              "3. <strong>Tecnología y poder:</strong> impacto de la digitalización, automatización e inteligencia artificial en el empleo y las relaciones de clase.<br>" +
+              "4. <strong>Precarización laboral:</strong> nuevas formas de extracción de plusvalía en el capitalismo contemporáneo."
+    }
+];
+const Economía_política_o_economía_a_secas_2019_p1_10 = [
+    {
+        text: "<strong>Temas principales (pp. 1–10):</strong><br>" +
+              "• Discusión sobre el objeto de estudio de la economía política y su evolución histórica.<br>" +
+              "• Contraste entre una formación universitaria pluralista (todas las corrientes) versus especializada (una sola escuela).<br>" +
+              "• Transición desde la economía política (clásica y marxista) hacia la economía neoclásica (“a secas”).<br>" +
+              "• Pérdida del componente político, ético e histórico en la economía contemporánea.<br>" +
+              "• Crítica al enfoque neoclásico por su abstracción, neutralidad aparente y desconexión con la realidad social."
+    },
+    {
+        text: "<strong>Introducción: el dilema de la enseñanza universitaria</strong><br>" +
+              "El artículo plantea un debate central: ¿debe la formación en economía incluir todas las corrientes del pensamiento económico de manera equilibrada, o debe centrarse en una escuela dominante (neoclásica, marxista, keynesiana, etc.)?<br><br>" +
+              "Los autores sostienen que para responder esta pregunta es necesario repensar el <em>objeto de estudio</em> de la disciplina, ya que su evolución histórica revela tensiones epistemológicas y políticas fundamentales."
+    },
+    {
+        text: "<strong>Orígenes de la economía política</strong><br>" +
+              "La economía política surge formalmente en el siglo XVIII con Adam Smith, aunque tiene antecedentes en el escolasticismo, el mercantilismo y la fisiocracia.<br><br>" +
+              "• <strong>Mercantilismo</strong>: la riqueza se identifica con metales preciosos.<br>" +
+              "• <strong>Fisiocracia</strong>: solo la agricultura genera excedente; Quesnay desarrolla el <em>Tableau Économique</em>.<br>" +
+              "• <strong>Smith</strong>: introduce la “mano invisible”, la división del trabajo y distingue entre valor de uso y valor de cambio.<br>" +
+              "• <strong>Ricardo</strong>: centra el análisis en la distribución del ingreso y el conflicto entre clases (terratenientes vs. capitalistas)."
+    },
+    {
+        text: "<strong>La economía política clásica: riqueza, valor y distribución</strong><br>" +
+              "Los clásicos definieron las bases de la disciplina al abordar preguntas fundamentales:<br>" +
+              "• ¿Cómo se genera la riqueza?<br>" +
+              "• ¿Qué determina el valor de los bienes?<br>" +
+              "• ¿Cómo se distribuye el ingreso entre las clases sociales?<br><br>" +
+              "Este enfoque era <em>histórico, social y político</em>, y reconocía los conflictos inherentes al sistema capitalista. La economía política nació junto con el capitalismo, como su discurso teórico y crítico."
+    },
+    {
+        text: "<strong>Las corrientes continuadoras: optimistas y pesimistas</strong><br>" +
+              "• <strong>Pesimistas</strong>: Malthus (crecimiento poblacional vs. recursos limitados) y Ricardo (rendimientos decrecientes en la agricultura, caída de la tasa de ganancia).<br>" +
+              "• <strong>Optimistas</strong>: Say y Mill, que profundizan la idea de armonía y equilibrio del mercado.<br><br>" +
+              "Paralelamente, surgen <strong>críticas socialistas</strong> (Sismondi, Owen, Fourier) que denuncian la explotación obrera y cuestionan la autorregulación del mercado. Sismondi anticipa las crisis de sobreproducción y defiende la intervención estatal."
+    },
+    {
+        text: "<strong>La ruptura de Marx</strong><br>" +
+              "Karl Marx se inscribe en la tradición clásica pero la radicaliza:<br>" +
+              "• Rechaza la idea de un “orden natural” y ve al capitalismo como un modo de producción <em>histórico y transitorio</em>.<br>" +
+              "• La riqueza capitalista se manifiesta como <em>valor de cambio</em>, no como satisfacción de necesidades.<br>" +
+              "• El trabajo crea valor, pero el capitalista se apropia de la <em>plusvalía</em> (diferencia entre valor producido y salario).<br>" +
+              "• El sistema se basa en la <em>explotación</em> y el <em>conflicto de clases</em>, no en la armonía."
+    },
+    {
+        text: "<strong>La revolución neoclásica: de la política a la técnica</strong><br>" +
+              "A fines del siglo XIX, la escuela neoclásica (Jevons, Menger, Walras) desplaza a la economía política:<br>" +
+              "• Abandona la teoría del valor-trabajo por la <em>teoría subjetiva del valor</em> (utilidad marginal).<br>" +
+              "• Reemplaza el análisis de clases por el de <em>individuos racionales</em> que maximizan utilidad.<br>" +
+              "• El foco ya no es la riqueza ni la distribución, sino la <em>asignación eficiente de recursos escasos</em>.<br>" +
+              "• La economía se “despolitiza” y se convierte en una ciencia técnica y aparentemente neutral."
+    },
+    {
+        text: "<strong>La definición de Robbins y la economía “a secas”</strong><br>" +
+              "Lionel Robbins (1932) define la economía como:<br>" +
+              "<em>“El estudio del comportamiento humano en cuanto relación entre fines dados y medios escasos que tienen usos alternativos”</em>.<br><br>" +
+              "Esta definición marca un quiebre:<br>" +
+              "• Desaparecen las clases sociales, el poder, la historia y la ética.<br>" +
+              "• La sociedad se reduce a la suma de individuos.<br>" +
+              "• La economía deja de ser <em>política</em> y se convierte en una disciplina centrada en la escasez y el equilibrio."
+    },
+    {
+        text: "<strong>Críticas a la neutralidad de la economía neoclásica</strong><br>" +
+              "Los autores argumentan que la pretensión de neutralidad es ideológica:<br>" +
+              "• Ignorar las relaciones de poder y las instituciones no es “objetivo”, sino una forma de legitimar el statu quo.<br>" +
+              "• La abstracción extrema (modelos con agentes racionales, información perfecta) desconecta a la teoría de la realidad.<br>" +
+              "• Esta economía no puede explicar crisis, desigualdad o desempleo estructural.<br>" +
+              "• Como señala Sweezy, la economía debe estudiar las <em>relaciones sociales de producción y distribución</em>, no solo la relación individuo-bien."
+    },
+    {
+        text: "<strong>Conclusión parcial: la economía debe recuperar su dimensión política</strong><br>" +
+              "La economía nació como <em>economía política</em> porque su objetivo era proponer soluciones a problemas reales (pobreza, justicia, desarrollo).<br><br>" +
+              "La separación entre “lo positivo” y “lo normativo” es artificial: toda teoría económica responde a intereses y valores.<br>" +
+              "Autores como Marshall, Pigou o Coase reconocieron que la economía debe servir al <em>bienestar social</em>.<br>" +
+              "Por eso, los autores defienden una enseñanza plural, histórica y crítica que recupere la dimensión política de la disciplina: <em>“la economía será política o no será”</em> (Boyer)."
+    }
+];
+const Economía_política_o_economía_a_secas_2019_p10_final = [
+    {
+        text: "<strong>Temas principales (págs. 10–181):</strong><br>" +
+              "• Evolución del objeto de estudio de la economía: de la riqueza y la distribución al análisis de la escasez y la asignación eficiente.<br>" +
+              "• Transición de la economía política a la economía ‘a secas’ con el surgimiento de la corriente neoclásica.<br>" +
+              "• Crítica al enfoque neoclásico por su despolitización, abstracción y neutralidad aparente.<br>" +
+              "• Reivindicación de la economía política como disciplina histórica, crítica y comprometida con la transformación social.<br>" +
+              "• Importancia de recuperar el carácter político de la economía para comprender y transformar la realidad."
+    },
+    {
+        text: "<strong>La economía política clásica y sus fundamentos</strong><br>" +
+              "La economía política surge formalmente en el siglo XVIII con Adam Smith, quien define su objeto como el estudio de la riqueza de las naciones. David Ricardo lo reorienta hacia la distribución del ingreso entre clases sociales. Ambos reconocen al trabajo como fuente de valor y analizan las contradicciones del capitalismo emergente. La Iglesia, el mercantilismo y la fisiocracia son antecedentes que influyen en este desarrollo teórico, aunque con visiones distintas sobre la riqueza (metales preciosos, agricultura, etc.)."
+    },
+    {
+        text: "<strong>Las corrientes continuadoras: optimistas y pesimistas</strong><br>" +
+              "Tras Smith y Ricardo, surgen posturas divergentes. Los ‘optimistas’ (como J.S. Mill y Say) enfatizan la armonía social y la autorregulación del mercado. Los ‘pesimistas’ (Malthus, Sismondi) advierten sobre crisis de sobreproducción y sufrimiento obrero. Sismondi critica la idea de que el equilibrio se restablece sin costos humanos. Marx, por su parte, radicaliza la crítica al señalar que el capitalismo disocia producción de necesidades y se basa en la explotación del trabajo."
+    },
+    {
+        text: "<strong>El giro neoclásico: de la economía política a la economía ‘a secas’</strong><br>" +
+              "A fines del siglo XIX, la escuela neoclásica desplaza a la economía política. Reemplaza la teoría del valor-trabajo por la teoría subjetiva del valor (utilidad marginal). El foco ya no está en la riqueza, la distribución o las clases, sino en la asignación eficiente de recursos escasos. El individuo racional y los equilibrios de mercado reemplazan al análisis histórico y social. El Estado es visto como innecesario, y la economía se presenta como una ciencia neutral y técnica."
+    },
+    {
+        text: "<strong>La revolución keynesiana y su domesticación</strong><br>" +
+              "Keynes rompe con la ortodoxia neoclásica al proponer la intervención estatal ante crisis de demanda insuficiente. Sin embargo, su teoría es rápidamente absorbida por la ‘síntesis neoclásica’, que la convierte en un caso especial dentro del marco general del equilibrio. Así, la crítica keynesiana pierde su potencial transformador y se integra al mainstream, allanando el camino para el retorno del neoliberalismo."
+    },
+    {
+        text: "<strong>La despolitización de la economía</strong><br>" +
+              "Con el neoclasicismo, la economía pierde su dimensión política. Ya no se pregunta por la justicia, la explotación o el poder, sino por la eficiencia. La definición de Lionel Robbins (1932) —‘estudio del comportamiento humano frente a fines ilimitados y medios escasos’— simboliza este giro. El conocimiento económico se presenta como aséptico, pero en realidad sirve para legitimar el statu quo y los intereses de la clase dominante."
+    },
+    {
+        text: "<strong>Crítica a la neutralidad de la ciencia económica</strong><br>" +
+              "Los autores rechazan la idea de una economía neutral. Siguiendo a Bernal y a Baran, sostienen que todo conocimiento social responde a intereses de clase. La pretensión de objetividad del enfoque neoclásico oculta su función ideológica: justificar el orden capitalista. En cambio, la economía política asume su compromiso con los trabajadores y busca no solo interpretar, sino transformar la realidad."
+    },
+    {
+        text: "<strong>La economía como herramienta de transformación</strong><br>" +
+              "Citar a Coase y Pigou: Marshall se dedicó a la economía para combatir la pobreza. La verdadera finalidad de la disciplina no es perfeccionar modelos matemáticos, sino mejorar el bienestar social. Krugman critica la ceguera de los economistas ortodoxos ante las crisis, y Blaug denuncia que la economía se ha convertido en un ‘juego intelectual’ sin utilidad práctica. La economía debe recuperar su vocación ética y política."
+    },
+    {
+        text: "<strong>Reflexiones finales: ¿economía política o economía a secas?</strong><br>" +
+              "El artículo concluye que la enseñanza universitaria debe incluir una formación amplia y crítica, que permita a los estudiantes confrontar distintas corrientes. Recuperar la economía política significa retomar el análisis histórico, cuestionar las relaciones de poder y asumir un compromiso ético. Como dice Boyer: ‘la economía será política o no será’."
+    }
+];
 
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
@@ -849,7 +1111,10 @@ temas:{
 'tercera_clase-10': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p80_90,
 'tercera_clase-11': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp90_100,
 'tercera_clase-12': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p100_108,
-
+'cuarta_clase': Esquema_breve_de_Revoluciones_industriales_y_científico_tecnológicas,
+'quinta_clase': ESintesisM1S72024,
+'quinta_clase-2': Economía_política_o_economía_a_secas_2019_p1_10,
+'quinta_clase-3': Economía_política_o_economía_a_secas_2019_p10_final
 // Añade más temas aquí siguiendo el patrón: 'nombreTema': nombreTema_constante
 // Asegúrate de que las claves (strings) coincidan con los nombres de las constantes definidas
 }
