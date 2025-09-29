@@ -678,7 +678,7 @@ const EFing_Clase_1_2025_p40_54 = [
     },
     {
         text: 
-        "<img src='https://github.com/CritickalGames/herramienta_leer_en_voz_alta/tree/main/data/economia/imagenes/grafica_primera_clase.png' alt='grafico de ejercicio' style='max-width:100%; height:auto;'><br>" +
+        "<img src='https://raw.githubusercontent.com/CritickalGames/herramienta_leer_en_voz_alta/main/data/economia/imagenes/grafica_primera_clase.png' alt='grafico de ejercicio' style='max-width:100%; height:auto;'><br>" +
             "<strong>Aplicación: evolución del nivel de actividad (pág. 54)</strong><br>" +
               "El análisis de los datos del PIB permite responder preguntas clave:<br>" +
               "a) ¿Cuánto creció la economía? → 4,9%.<br>" +
