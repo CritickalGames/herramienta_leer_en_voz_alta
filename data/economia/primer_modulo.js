@@ -194,7 +194,7 @@ const Clase_Categorías_fundamentales_de_la_economía_política_I = [
               "• <em>El Capital</em> es, en última instancia, un intento de desvelar las leyes ocultas que gobiernan el mundo de las mercancías para poder transformarlo."
     }
 ];
-const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pagina_1_a_10 = [
+const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p1_p10 = [
     {
         text: "<strong>Temas principales (primeras 10 páginas):</strong><br>" +
               "• Crítica a la hegemonía del pensamiento neoliberal y neoclásico en la academia y el análisis económico.<br>" +
@@ -581,7 +581,8 @@ const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurre
         text: "<strong>Consecuencias teóricas (p. 69–70)</strong><br>" +
               "La separación entre plusvalor y ganancia explica por qué incluso fábricas altamente automatizadas (que generan poco o ningún plusvalor) pueden ser rentables: se apropian de plusvalor generado en otros sectores. Este mecanismo <em>fetichiza</em> las relaciones económicas, haciendo parecer que la ganancia proviene del capital en general, no del trabajo explotado."
     }
-];const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp70_80 = [
+];
+const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp70_80 = [
     {
         text: "<strong>Temas principales (pp. 70–80):</strong><br>" +
               "• Distintas formas de ganancia: industrial, comercial, interés y renta del suelo.<br>" +
@@ -631,7 +632,8 @@ const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurre
         text: "<strong>Conclusión teórica (síntesis de pp. 70–80)</strong><br>" +
               "Todas las formas de ingreso en el capitalismo —ganancia industrial, comercial, interés y renta— son manifestaciones del <em>plusvalor</em> generado exclusivamente por el trabajo asalariado. Su distribución refleja la estructura de clases y las relaciones de poder: capitalistas, financieros, comerciantes y terratenientes se reparten el excedente. El análisis marxista desmonta las apariencias fetichistas del sistema y revela que la explotación del trabajo es la base material de toda la acumulación capitalista."
     }
-];const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p80_90 = [
+];
+const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p80_90 = [
     {
         text: "<strong>Temas principales (pp. 80–90):</strong><br>" +
               "• Acumulación extensiva del capital: procesos orientados a la fuerza de trabajo.<br>" +
@@ -770,7 +772,6 @@ const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurre
               "El Estado debe entenderse como una <em>forma histórica de las relaciones sociales</em>, específicamente de la relación capital-trabajo. Su separación de la esfera económica no lo hace independiente, sino que le permite actuar como árbitro aparentemente neutral. Su función última es asegurar la reproducción del sistema capitalista en medio de sus contradicciones internas."
     }
 ];
-
 const Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p100_108 = [
     {
         text: "<strong>Temas principales (págs. 100–108):</strong><br>" +
