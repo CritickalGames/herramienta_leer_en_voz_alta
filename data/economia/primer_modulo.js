@@ -1095,27 +1095,27 @@ const Economía_política_o_economía_a_secas_2019_p10_final = [
 
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
-tema: "economia/clases",
-temas:{
-'primera_clase': PPT_Clase_Economía_en_la_Historia_de_la_Humanidad_2024,
-'segunda_clase': Presentación_HE,
-'tercera_clase': Clase_Categorías_fundamentales_de_la_economía_política_I,
-'tercera_clase-2': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p1_p10,
-'tercera_clase-3': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p10_p20,
-'tercera_clase-4': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p20_p30,
-'tercera_clase-5': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p30_40,
-'tercera_clase-6': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p40_50,
-'tercera_clase-7': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp50_60,
-'tercera_clase-8': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp60_70,
-'tercera_clase-9': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp70_80,
-'tercera_clase-10': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p80_90,
-'tercera_clase-11': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp90_100,
-'tercera_clase-12': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p100_108,
-'cuarta_clase': Esquema_breve_de_Revoluciones_industriales_y_científico_tecnológicas,
-'quinta_clase': ESintesisM1S72024,
-'quinta_clase-2': Economía_política_o_economía_a_secas_2019_p1_10,
-'quinta_clase-3': Economía_política_o_economía_a_secas_2019_p10_final
-// Añade más temas aquí siguiendo el patrón: 'nombreTema': nombreTema_constante
-// Asegúrate de que las claves (strings) coincidan con los nombres de las constantes definidas
-}
+    tema: "economia/clases",
+    temas:{
+        'primera_clase': PPT_Clase_Economía_en_la_Historia_de_la_Humanidad_2024,
+        'segunda_clase': Presentación_HE,
+        'tercera_clase': Clase_Categorías_fundamentales_de_la_economía_política_I,
+        'tercera_clase-2': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p1_p10,
+        'tercera_clase-3': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p10_p20,
+        'tercera_clase-4': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p20_p30,
+        'tercera_clase-5': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p30_40,
+        'tercera_clase-6': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p40_50,
+        'tercera_clase-7': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp50_60,
+        'tercera_clase-8': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp60_70,
+        'tercera_clase-9': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp70_80,
+        'tercera_clase-10': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p80_90,
+        'tercera_clase-11': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_pp90_100,
+        'tercera_clase-12': Melazzi_Foladori_Economía_de_la_Sociedad_Capitalista_y_sus_Crisis_Recurrentes_p100_108,
+        'cuarta_clase': Esquema_breve_de_Revoluciones_industriales_y_científico_tecnológicas,
+        'quinta_clase': ESintesisM1S72024,
+        'quinta_clase-2': Economía_política_o_economía_a_secas_2019_p1_10,
+        'quinta_clase-3': Economía_política_o_economía_a_secas_2019_p10_final
+        // Añade más temas aquí siguiendo el patrón: 'nombreTema': nombreTema_constante
+        // Asegúrate de que las claves (strings) coincidan con los nombres de las constantes definidas
+    }
 };
