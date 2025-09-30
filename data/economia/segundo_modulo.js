@@ -4598,6 +4598,561 @@ const EFing_Clase_6_2025_p40_42 = [
     }
 ];
 
+const Biblio_Chang_Cap7_p1_10 = [
+    {
+        text: "<strong>Temas principales (pp. 1–10):</strong><br>" +
+              "• Importancia de la producción material y la industria manufacturera en el desarrollo económico.<br>" +
+              "• Crítica a la idea de que los países pueden “saltarse” la industrialización y basar su desarrollo en servicios.<br>" +
+              "• Diferencias entre crecimiento económico y desarrollo económico.<br>" +
+              "• Papel del valor añadido manufacturero (VAM) como indicador de capacidades productivas.<br>" +
+              "• Riesgos de las economías basadas en recursos naturales o en servicios de bajo valor agregado."
+    },
+    {
+        text: "<strong>¿Por qué la producción importa?</strong><br>" +
+              "Chang argumenta que, a pesar de la retórica posindustrial, la <strong>producción material</strong> sigue siendo fundamental para el desarrollo. No todos los sectores generan el mismo tipo de valor ni permiten el mismo grado de innovación, aprendizaje tecnológico y encadenamientos productivos. La <strong>industria manufacturera</strong> es especialmente dinámica porque:<br>" +
+              "• Permite aumentos sostenidos de productividad.<br>" +
+              "• Facilita la absorción de tecnología y la creación de empleo calificado.<br>" +
+              "• Genera externalidades positivas para otros sectores."
+    },
+    {
+        text: "<strong>El mito del “salto” sobre la industrialización</strong><br>" +
+              "Algunos sostienen que países como India o Costa Rica han logrado prosperidad basándose en servicios (TI, turismo, finanzas). Chang rechaza esta visión:<br>" +
+              "• India tuvo déficit comercial en servicios hasta 2004.<br>" +
+              "• El sector servicios en países en desarrollo suele ser de <em>bajo valor agregado</em> (comercio informal, empleo doméstico) o altamente concentrado (TI para exportación).<br>" +
+              "• Sin una base industrial, las economías son vulnerables a choques externos y no generan capacidades productivas duraderas."
+    },
+    {
+        text: "<strong>Crecimiento vs. desarrollo económico</strong><br>" +
+              "• <strong>Crecimiento</strong>: aumento cuantitativo del PIB.<br>" +
+              "• <strong>Desarrollo</strong>: expansión de las <em>capacidades productivas</em> de una economía.<br><br>" +
+              "Un país puede crecer temporalmente exportando recursos naturales, pero sin desarrollo estructural ese crecimiento es insostenible. Ejemplo: Guinea Ecuatorial creció con el petróleo, pero sin diversificación ni industrialización, su desarrollo humano sigue siendo bajo."
+    },
+    {
+        text: "<strong>Valor Añadido Manufacturero (VAM) per cápita</strong><br>" +
+              "Chang utiliza el VAM per cápita como proxy de las capacidades productivas. Datos reveladores:<br>" +
+              "• En 2005, <strong>Suiza</strong> tenía el VAM per cápita más alto del mundo, seguida por Japón y Singapur.<br>" +
+              "• Países ricos en servicios pero con baja industria (Reino Unido, EE.UU.) tienen VAM per cápita significativamente menor.<br>" +
+              "• Esto muestra que incluso las economías avanzadas dependen de la manufactura de alto valor para su prosperidad."
+    },
+    {
+        text: "<strong>Riesgos de las economías basadas en recursos naturales</strong><br>" +
+              "Las economías dependientes de commodities enfrentan:<br>" +
+              "• <strong>Volatilidad de precios</strong> (ej. nitratos en Chile, cochinilla en Guatemala).<br>" +
+              "• <strong>Poca generación de empleo calificado</strong>.<br>" +
+              "• <strong>Escasos encadenamientos productivos</strong>.<br>" +
+              "• <strong>Falta de incentivos para innovar</strong>.<br><br>" +
+              "Sin políticas activas de diversificación, la riqueza en recursos naturales puede incluso obstaculizar el desarrollo (‘paradoja de la abundancia’)."
+    },
+    {
+        text: "<strong>La desindustrialización prematura</strong><br>" +
+              "En muchos países en desarrollo, la participación de la industria en el empleo y el PIB ha caído <em>antes</em> de alcanzar niveles de productividad comparables a los de los países desarrollados. Esto limita su capacidad para:<br>" +
+              "• Absorber mano de obra rural.<br>" +
+              "• Generar divisas estables.<br>" +
+              "• Acumular conocimiento técnico.<br><br>" +
+              "Chang advierte que la desindustrialización temprana condena a estos países a quedar atrapados en actividades de bajo valor agregado."
+    },
+    {
+        text: "<strong>Conclusión parcial</strong><br>" +
+              "La producción —especialmente la manufacturera— no es un estadio superado, sino una condición necesaria para un desarrollo económico sostenido e inclusivo. Las políticas públicas deben apoyar activamente la acumulación de capacidades productivas, en lugar de confiar en la especialización espontánea en servicios o recursos naturales."
+    }
+];
+
+const Biblio_Chang_Cap7_p10_17 = [
+    {
+        text: "<strong>Temas principales (pp. 10–17):</strong><br>" +
+              "• Crítica al enfoque neoclásico sobre el desarrollo y la pobreza.<br>" +
+              "• Importancia de las instituciones, la historia y las políticas activas en el desarrollo.<br>" +
+              "• El papel del Estado en la promoción del cambio estructural.<br>" +
+              "• Limitaciones de los enfoques basados únicamente en el crecimiento del PIB o en la ayuda externa.<br>" +
+              "• La necesidad de políticas industriales y tecnológicas para transformar la estructura productiva."
+    },
+    {
+        text: "<strong>El mito del crecimiento automático</strong><br>" +
+              "Chang critica la idea neoclásica de que el crecimiento económico surge de forma automática si se garantizan ciertas condiciones (estabilidad macroeconómica, derechos de propiedad, apertura comercial).<br><br>" +
+              "• Esta visión ignora que los países hoy desarrollados (EE.UU., Alemania, Japón) usaron activamente políticas industriales, proteccionismo y subsidios para desarrollarse.<br>" +
+              "• El crecimiento no es un resultado espontáneo del mercado, sino el producto de decisiones políticas deliberadas."
+    },
+    {
+        text: "<strong>Desarrollo como transformación estructural</strong><br>" +
+              "El verdadero desarrollo implica una <em>transformación estructural</em> de la economía:<br>" +
+              "• Cambio de actividades de baja productividad (agricultura de subsistencia) a actividades de alta productividad (industria, servicios avanzados).<br>" +
+              "• Acumulación de capacidades tecnológicas y organizativas.<br>" +
+              "• Mejora de la calidad del empleo y de los salarios reales.<br><br>" +
+              "Sin esta transformación, el crecimiento del PIB puede ser volátil, dependiente de commodities y sin impacto en la pobreza."
+    },
+    {
+        text: "<strong>Crítica a la ayuda al desarrollo</strong><br>" +
+              "Chang señala que la ayuda externa, aunque bien intencionada, tiene limitaciones:<br>" +
+              "• Puede crear dependencia y desincentivar la recaudación fiscal local.<br>" +
+              "• A menudo se canaliza sin considerar las capacidades institucionales ni las prioridades locales.<br>" +
+              "• No sustituye la necesidad de políticas nacionales coherentes y sostenibles.<br><br>" +
+              "El desarrollo debe ser <em>endógeno</em>, no impuesto desde fuera."
+    },
+    {
+        text: "<strong>El rol del Estado en la innovación y la industrialización</strong><br>" +
+              "• El Estado no solo corrige 'fallos de mercado', sino que <em>crea mercados</em> y <em>construye capacidades</em>.<br>" +
+              "• Ejemplos históricos: EE.UU. con el ferrocarril, Corea del Sur con la electrónica, Taiwán con los semiconductores.<br>" +
+              "• Las políticas industriales exitosas combinan apoyo a la inversión, formación de capital humano, transferencia tecnológica y competencia controlada."
+    },
+    {
+        text: "<strong>Instituciones y contexto histórico</strong><br>" +
+              "Las instituciones (leyes, normas, prácticas) son cruciales, pero no existen en el vacío:<br>" +
+              "• Deben adaptarse al contexto histórico, cultural y económico de cada país.<br>" +
+              "• Copiar instituciones de países desarrollados (ej. sistemas legales, bancarios) sin adaptación suele fracasar.<br>" +
+              "• Las instituciones eficaces evolucionan junto con el desarrollo, no lo preceden de forma mágica."
+    },
+    {
+        text: "<strong>Conclusión: más allá del dogma</strong><br>" +
+              "Chang concluye que no existe una 'receta única' para el desarrollo. Los países deben tener la libertad de experimentar con políticas heterodoxas, aprender de sus errores y adaptar estrategias a sus realidades. La historia muestra que el éxito viene de la combinación de <em>Estado activo</em>, <em>mercado dinámico</em> y <em>apertura selectiva</em>, no del laissez-faire."
+    }
+];
+
+const biblio_CINVE_Cap1_p1_10 = [
+    {
+        text: "<strong>Temas principales (pp. 1–10):</strong><br>" +
+              "• Crecimiento económico de Uruguay en el siglo XX.<br>" +
+              "• Comparación del PIB per cápita uruguayo con países desarrollados y de la región.<br>" +
+              "• Rezago relativo de Uruguay a partir de la segunda mitad del siglo XX.<br>" +
+              "• Introducción a los determinantes del crecimiento económico.<br>" +
+              "• Distinción entre crecimiento económico y desarrollo."
+    },
+    {
+        text: "<strong>El crecimiento económico de Uruguay en el siglo XX</strong><br>" +
+              "A principios del siglo XX, Uruguay era uno de los países más prósperos del mundo. En 1900, su PIB per cápita superaba al de Finlandia, Italia y Japón, y era cercano al de las potencias europeas. Sin embargo, durante el siglo XX, el crecimiento uruguayo fue lento en comparación con otros países, lo que generó un <strong>rezago relativo</strong> creciente."
+    },
+    {
+        text: "<strong>Comparación internacional del PIB per cápita</strong><br>" +
+              "• Entre 1900 y 2001, el PIB per cápita de Uruguay se multiplicó por <strong>3,4</strong>.<br>" +
+              "• En el mismo período, países como EE.UU. (×6,8), Francia (×7,3) y Brasil (×8,2) crecieron mucho más.<br>" +
+              "• En 1955, Uruguay aún mantenía una posición relativamente alta, pero para 2001 ya tenía el <strong>PIB per cápita más bajo</strong> entre los países comparados (EE.UU., Finlandia, Francia, Italia, Japón)."
+    },
+    {
+        text: "<strong>Rezago respecto a América Latina</strong><br>" +
+              "Uruguay también perdió posición dentro de América Latina. Aunque en 1900 y 1955 superaba a Brasil, Chile y Argentina, para 2001 había sido superado por todos ellos. Este fenómeno no es exclusivo de Uruguay: la región en su conjunto tuvo un crecimiento basado en la acumulación de factores (trabajo y capital), no en ganancias de productividad."
+    },
+    {
+        text: "<strong>¿Qué es el crecimiento económico?</strong><br>" +
+              "El crecimiento económico se refiere al aumento sostenido en la producción de bienes y servicios de un país, medido habitualmente por la tasa de variación del <strong>Producto Interno Bruto (PIB)</strong> real (ajustado por inflación). El PIB per cápita permite comparar niveles de riqueza entre países y en el tiempo."
+    },
+    {
+        text: "<strong>Limitaciones del PIB como medida de bienestar</strong><br>" +
+              "Aunque el PIB no mide directamente el bienestar, se correlaciona con indicadores sociales como la esperanza de vida, la mortalidad infantil y el analfabetismo. En Uruguay, estos indicadores mejoraron significativamente en el siglo XX, lo que muestra que el desarrollo humano no siempre va de la mano del crecimiento económico relativo."
+    },
+    {
+        text: "<strong>Crecimiento vs. desarrollo</strong><br>" +
+              "El <strong>crecimiento económico</strong> es una condición necesaria pero no suficiente para el <strong>desarrollo</strong>. Uruguay mejoró en salud, educación y calidad de vida, pero su estancamiento relativo en términos de ingreso per cápita limitó su capacidad de mantener una posición de liderazgo regional y global."
+    },
+    {
+        text: "<strong>Fluctuaciones y ciclos económicos</strong><br>" +
+              "El crecimiento no es lineal: está marcado por <strong>ciclos económicos</strong> (expansiones y recesiones). En el siglo XX, Uruguay experimentó períodos de auge (primeras décadas) y de estancamiento o retroceso (especialmente desde los años 70). Estas fluctuaciones afectan la trayectoria de largo plazo."
+    },
+    {
+        text: "<strong>Introducción a los determinantes del crecimiento</strong><br>" +
+              "El capítulo adelanta que el crecimiento depende de factores como:<br>" +
+              "• Acumulación de <strong>capital físico</strong> (infraestructura, maquinaria).<br>" +
+              "• Crecimiento y calificación de la <strong>fuerza laboral</strong>.<br>" +
+              "• Avances en la <strong>productividad total de los factores (PTF)</strong>.<br>" +
+              "En Uruguay, la baja productividad fue un factor clave del rezago."
+    },
+    {
+        text: "<strong>Conclusión parcial</strong><br>" +
+              "El desempeño económico de Uruguay en el siglo XX ilustra que el crecimiento inicial no garantiza el liderazgo sostenido. La falta de transformación estructural, innovación y ganancias de productividad llevó a un estancamiento relativo, a pesar de avances en indicadores sociales. Comprender estas dinámicas es clave para diseñar políticas que promuevan un crecimiento inclusivo y sostenible."
+    }
+];
+
+const biblio_CINVE_Cap1_p10_18 = [
+    {
+        text: "<strong>Temas principales (pp. 10–18):</strong><br>" +
+              "• Definición de economía como ciencia social que estudia la asignación de recursos escasos.<br>" +
+              "• Distinción entre bienes libres y bienes económicos.<br>" +
+              "• Agentes económicos: hogares, empresas, Estado y sector externo.<br>" +
+              "• Diferencias entre enfoque microeconómico y macroeconómico.<br>" +
+              "• Uso de modelos económicos como herramientas de análisis simplificado.<br>" +
+              "• Modelo del flujo circular de la economía: relaciones entre agentes, mercados y variables económicas."
+    },
+    {
+        text: "<strong>La Economía como ciencia social</strong><br>" +
+              "La economía estudia cómo las sociedades asignan recursos limitados para satisfacer necesidades múltiples e ilimitadas. Por eso se la conoce como <em>“la ciencia de la escasez”</em>.<br><br>" +
+              "• Se ocupa de decisiones colectivas, no individuales aisladas (como en el caso de Robinson Crusoe).<br>" +
+              "• Distingue entre <strong>bienes libres</strong> (abundantes, sin precio, como el aire) y <strong>bienes económicos</strong> (escasos, con precio, como el agua potable).<br>" +
+              "• Analiza el comportamiento de agentes económicos: hogares, empresas, Estado y resto del mundo."
+    },
+    {
+        text: "<strong>Microeconomía y macroeconomía</strong><br>" +
+              "• <strong>Microeconomía</strong>: estudia el comportamiento de unidades individuales (consumidores, empresas) y mercados específicos (ej. combustible, electricidad).<br>" +
+              "• <strong>Macroeconomía</strong>: analiza variables agregadas como empleo, ingreso nacional, inversión, inflación y crecimiento económico.<br><br>" +
+              "Ambos enfoques son complementarios. Por ejemplo, un impuesto a la renta afecta decisiones individuales (micro) y el nivel de actividad económica global (macro)."
+    },
+    {
+        text: "<strong>Modelos económicos</strong><br>" +
+              "Los economistas usan <em>modelos</em> como representaciones simplificadas de la realidad, similares a un plano de ciudad frente a una foto aérea.<br><br>" +
+              "• Los modelos se basan en supuestos y utilizan <strong>variables económicas</strong> (PIB, inversión, consumo, etc.).<br>" +
+              "• Su objetivo es facilitar el análisis de fenómenos complejos mediante abstracciones controladas y relaciones lógicas."
+    },
+    {
+        text: "<strong>Modelo del flujo circular (economía simple)</strong><br>" +
+              "En una economía básica con solo hogares y empresas, existen dos mercados:<br>" +
+              "1. <strong>Mercado de bienes y servicios</strong>: las empresas venden, los hogares compran.<br>" +
+              "2. <strong>Mercado de factores</strong>: los hogares ofrecen trabajo, tierra y capital; las empresas pagan salarios, rentas y beneficios.<br><br>" +
+              "Este modelo muestra que:<br>" +
+              "• El <strong>PIB</strong> (valor de la producción) = <strong>Ingreso nacional</strong> = <strong>Gasto total</strong> (consumo).<br>" +
+              "• El <strong>valor agregado</strong> (salarios + rentas + beneficios) equivale al PIB."
+    },
+    {
+        text: "<strong>Factores de producción</strong><br>" +
+              "Los recursos utilizados para producir bienes y servicios se clasifican en tres:<br>" +
+              "• <strong>Trabajo</strong>: tiempo y esfuerzo humano.<br>" +
+              "• <strong>Capital</strong>: bienes duraderos usados en la producción (maquinaria, edificios, inventarios).<br>" +
+              "• <strong>Tierra o recursos naturales</strong>: materias primas provistas por la naturaleza (minerales, agua, energía)."
+    },
+    {
+        text: "<strong>Expansión del modelo: economía más compleja</strong><br>" +
+              "En la realidad, intervienen otros agentes:<br>" +
+              "• <strong>El Estado</strong>: recauda impuestos, gasta en bienes públicos, regula y redistribuye.<br>" +
+              "• <strong>El sistema financiero</strong>: canaliza el ahorro hacia la inversión.<br>" +
+              "• <strong>El sector externo</strong>: permite importaciones y exportaciones.<br><br>" +
+              "Esto transforma el flujo circular en una red de interacciones más rica y realista."
+    },
+    {
+        text: "<strong>Demanda y oferta agregada</strong><br>" +
+              "• <strong>Demanda agregada (DA)</strong> = C (consumo privado) + I (inversión) + G (gasto público) + X (exportaciones).<br>" +
+              "• <strong>Oferta agregada (OA)</strong> = PIB + M (importaciones).<br><br>" +
+              "En equilibrio ex post: <strong>PIB + M = C + I + G + X</strong>, lo que lleva a la identidad fundamental de la contabilidad nacional:<br>" +
+              "<strong>PIB = C + I + G + (X – M)</strong>."
+    },
+    {
+        text: "<strong>Ingreso disponible y ahorro</strong><br>" +
+              "• El <strong>ingreso disponible</strong> de los hogares es: Y<sub>d</sub> = Y (ingreso total) – T (impuestos).<br>" +
+              "• El <strong>ahorro</strong> (S) es la parte del ingreso disponible no consumida: S = Y<sub>d</sub> – C.<br><br>" +
+              "En una economía cerrada y con presupuesto equilibrado (G = T), el ahorro iguala la inversión: <strong>S = I</strong>.<br>" +
+              "En una economía abierta: <strong>I = S + (M – X) + (T – G)</strong>, lo que muestra que la inversión se financia con ahorro interno, déficit externo y superávit fiscal."
+    }
+];
+
+const EFing_Clase_7_2025_p1_10 = [
+    {
+        text: "<strong>Temas principales (págs. 1–10):</strong><br>" +
+              "• Definición y medición del crecimiento económico.<br>" +
+              "• Diferencia entre crecimiento económico y desarrollo.<br>" +
+              "• Indicadores de crecimiento: PIB real y PIB real per cápita.<br>" +
+              "• Determinantes próximos del crecimiento: acumulación de factores y progreso tecnológico.<br>" +
+              "• Evidencia empírica sobre el rol de la productividad en el crecimiento global y en América Latina."
+    },
+    {
+        text: "<strong>Crecimiento económico: definición</strong><br>" +
+              "El crecimiento económico es el <strong>proceso de largo plazo</strong> mediante el cual aumenta la producción de bienes y servicios en una economía. Se mide principalmente a través del <strong>Producto Interno Bruto (PIB) real</strong>, es decir, ajustado por inflación, para reflejar cambios en cantidades, no en precios."
+    },
+    {
+        text: "<strong>Indicadores de crecimiento</strong><br>" +
+              "• <strong>PIB real</strong>: mide el volumen total de bienes y servicios producidos en un período.<br>" +
+              "• <strong>PIB real per cápita</strong> = PIB real / población total. Permite comparar niveles de vida entre países de distinto tamaño.<br><br>" +
+              "Se considera que hay crecimiento cuando la variación anual de estas variables es <strong>positiva</strong>."
+    },
+    {
+        text: "<strong>Crecimiento vs. desarrollo económico</strong><br>" +
+              "• El <strong>crecimiento</strong> es un fenómeno cuantitativo (más producción).<br>" +
+              "• El <strong>desarrollo económico</strong> implica una transformación estructural: aumento de capacidades productivas, diversificación, inclusión social y sostenibilidad.<br>" +
+              "• Como señala Ha-Joon Chang, el desarrollo no es solo crecer, sino <em>“cómo”</em> se crece y <em>“para quién”</em>."
+    },
+    {
+        text: "<strong>Determinantes próximos del crecimiento</strong><br>" +
+              "El crecimiento depende de dos factores inmediatos:<br>" +
+              "1. <strong>Acumulación de factores productivos</strong>:<br>" +
+              "&nbsp;&nbsp;– Capital físico (infraestructura, maquinaria),<br>" +
+              "&nbsp;&nbsp;– Capital humano (educación, salud),<br>" +
+              "&nbsp;&nbsp;– Trabajo (cantidad y calidad).<br>" +
+              "2. <strong>Progreso tecnológico</strong>: mejora en la eficiencia con la que se combinan los factores para producir más con lo mismo."
+    },
+    {
+        text: "<strong>Productividad: el motor del crecimiento sostenido</strong><br>" +
+              "• La <strong>productividad</strong> mide la cantidad de output por unidad de input.<br>" +
+              "• Los países con mayor crecimiento en el siglo XX y XXI lo lograron principalmente mediante <strong>aumentos de productividad</strong>, no solo por acumulación de factores.<br>" +
+              "• En cambio, América Latina creció históricamente en base a la acumulación de factores (especialmente trabajo), con bajo dinamismo de la productividad."
+    },
+    {
+        text: "<strong>Evidencia empírica internacional</strong><br>" +
+              "• Países desarrollados (EE.UU., Alemania, Japón) lograron altas tasas de crecimiento gracias a innovación, inversión en I+D y educación de calidad.<br>" +
+              "• En América Latina, el crecimiento fue más volátil y dependiente de commodities, con escasa transformación productiva.<br>" +
+              "• Desde el siglo XXI, la productividad comienza a jugar un rol más relevante en la región, aunque sigue rezagada."
+    },
+    {
+        text: "<strong>Tasas de crecimiento histórico</strong><br>" +
+              "• Hasta finales del siglo XVIII: crecimiento prácticamente nulo.<br>" +
+              "• Revolución Industrial (siglo XIX): ~1% anual.<br>" +
+              "• Siglo XX (auge del capitalismo): 3–4% anual en países líderes.<br>" +
+              "• Siglo XXI (2000–2020): promedio global de ~2,9%.<br>" +
+              "• Crecimientos superiores al 6% son excepcionales y suelen vincularse a descubrimientos de recursos naturales o reconstrucciones postguerra."
+    },
+    {
+        text: "<strong>Uruguay en perspectiva histórica</strong><br>" +
+              "• En 1870, Uruguay tenía un nivel de PIB per cápita similar al de países que hoy son desarrollados.<br>" +
+              "• A lo largo del siglo XX, la brecha se amplió: mientras otros países aceleraron su crecimiento mediante industrialización y avance tecnológico, Uruguay tuvo un crecimiento más lento y volátil.<br>" +
+              "• En la región, países como Chile han superado a Uruguay en PIB per cápita en las últimas décadas."
+    },
+    {
+        text: "<strong>Conclusión parcial</strong><br>" +
+              "El crecimiento económico no es automático ni uniforme. Depende de decisiones políticas, inversiones estratégicas y capacidades institucionales. La acumulación de factores es necesaria, pero el <strong>progreso tecnológico y el aumento de la productividad</strong> son claves para un crecimiento sostenido, inclusivo y duradero."
+    }
+];
+
+const EFing_Clase_7_2025_p10_20 = [
+    {
+        text: "<strong>Temas principales (págs. 10–20):</strong><br>" +
+              "• Definición y medición del crecimiento económico.<br>" +
+              "• Diferencia entre crecimiento y desarrollo.<br>" +
+              "• Rol del PIB y el PIB per cápita como indicadores de bienestar.<br>" +
+              "• Factores determinantes del crecimiento: recursos naturales, trabajo, capital, tecnología y capital humano.<br>" +
+              "• La “Gran Divergencia” y la desigualdad global desde el siglo XIX."
+    },
+    {
+        text: "<strong>¿Qué es el crecimiento económico?</strong><br>" +
+              "El crecimiento económico se define como el aumento sostenido en la producción de bienes y servicios de un país, medido habitualmente mediante la tasa de variación del <strong>Producto Interno Bruto (PIB) real</strong> (ajustado por inflación).<br><br>" +
+              "• El <strong>PIB per cápita</strong> (PIB dividido por la población) permite comparar niveles de riqueza entre países y en el tiempo.<br>" +
+              "• Aunque imperfecto, se correlaciona fuertemente con indicadores de bienestar como la esperanza de vida y la alfabetización."
+    },
+    {
+        text: "<strong>Crecimiento vs. desarrollo</strong><br>" +
+              "El crecimiento económico es una <em>condición necesaria pero no suficiente</em> para el desarrollo. Un país puede crecer sin que sus ciudadanos mejoren su calidad de vida si:<br>" +
+              "• La riqueza generada no se distribuye equitativamente.<br>" +
+              "• No se invierte en salud, educación o protección ambiental.<br>" +
+              "• El crecimiento depende de sectores volátiles (como commodities) sin diversificación productiva.<br><br>" +
+              "El <strong>desarrollo</strong> implica, además del crecimiento, la expansión de las libertades reales de las personas (Amartya Sen)."
+    },
+    {
+        text: "<strong>Evolución histórica del crecimiento global</strong><br>" +
+              "• Hasta ~1500, los niveles de prosperidad entre regiones del mundo eran relativamente similares.<br>" +
+              "• A partir de los viajes de Colón y Vasco de Gama, comienza una economía mundial integrada.<br>" +
+              "• Entre finales del siglo XVIII y mediados del XIX, Europa Occidental experimenta un crecimiento sostenido, mientras el resto del mundo se estanca: nace la <strong>“Gran Divergencia”</strong>.<br>" +
+              "• En 1870, los niveles de PIB per cápita eran aún comparables; para 1950, la brecha se había ampliado drásticamente."
+    },
+    {
+        text: "<strong>Ritmos de crecimiento a lo largo de la historia</strong><br>" +
+              "• Hasta finales del siglo XVIII: crecimiento prácticamente nulo (~0%).<br>" +
+              "• Revolución Industrial (siglo XIX): ~1% anual.<br>" +
+              "• Siglo XX (auge del capitalismo): 3–4% anual.<br>" +
+              "• Siglo XXI (2000–2020): promedio de ~2,9% anual.<br>" +
+              "• Crecimientos superiores al 6% son excepcionales; por encima del 10% solo ocurren con nuevas dotaciones de recursos naturales y por períodos breves."
+    },
+    {
+        text: "<strong>Factores del crecimiento económico</strong><br>" +
+              "El crecimiento depende de múltiples factores interrelacionados:<br>" +
+              "1. <strong>Recursos naturales</strong>: tierras fértiles, minerales, energía.<br>" +
+              "2. <strong>Trabajo</strong>: cantidad y calidad de la fuerza laboral.<br>" +
+              "3. <strong>Capital físico</strong>: infraestructura, maquinaria, edificios.<br>" +
+              "4. <strong>Capital humano</strong>: educación, salud, habilidades.<br>" +
+              "5. <strong>Progreso tecnológico</strong>: innovación y eficiencia en la producción.<br><br>" +
+              "La historia muestra que los países que lograron desarrollo sostenido combinaron inversión en capital humano con adopción de tecnología y diversificación productiva."
+    },
+    {
+        text: "<strong>Limitaciones del PIB como medida de bienestar</strong><br>" +
+              "El PIB no refleja:<br>" +
+              "• La <strong>distribución del ingreso</strong> (un país puede tener alto PIBpc con alta desigualdad).<br>" +
+              "• Las <strong>actividades no mercantilizadas</strong> (trabajo doméstico, voluntariado, trueque).<br>" +
+              "• La <strong>calidad de los bienes</strong> (pueden ser contaminantes o peligrosos).<br>" +
+              "• La <strong>sostenibilidad ambiental</strong> ni el agotamiento de recursos naturales.<br>" +
+              "• El <strong>bienestar subjetivo</strong> (felicidad, cohesión social, tiempo libre)."
+    },
+    {
+        text: "<strong>La Gran Divergencia: causas y consecuencias</strong><br>" +
+              "La desigualdad global no es natural, sino histórica. Surgió de:<br>" +
+              "• La primera globalización (1500–1800): colonización, comercio triangular, acumulación de metales preciosos.<br>" +
+              "• La Revolución Industrial: solo algunos países (Reino Unido, luego EE.UU. y Europa Occidental) lograron industrializarse.<br>" +
+              "• Políticas activas de Estado: creación de mercados nacionales, protección arancelaria, educación masiva, sistemas bancarios.<br>" +
+              "• El resto del mundo fue relegado a proveedor de materias primas, sin capacidad de industrialización autónoma."
+    },
+    {
+        text: "<strong>Conclusión: el crecimiento como condición, no como fin</strong><br>" +
+              "El crecimiento económico es esencial para generar recursos, pero su valor depende de cómo se distribuyen y utilizan. Sin políticas activas de inclusión, inversión en capital humano y diversificación productiva, el crecimiento puede coexistir con pobreza, desigualdad y vulnerabilidad externa. Por eso, el objetivo debe ser el <em>desarrollo humano sostenible</em>, no solo el aumento del PIB."
+    }
+];
+
+const EFing_Clase_7_2025_p20_30 = [
+    {
+        text: "<strong>Temas principales (págs. 20–30):</strong><br>" +
+              "• Definición y medición del crecimiento económico.<br>" +
+              "• Diferencia entre crecimiento y desarrollo.<br>" +
+              "• Evolución histórica del crecimiento global: la Gran Divergencia.<br>" +
+              "• Factores determinantes del crecimiento: capital, trabajo, productividad y tecnología.<br>" +
+              "• Rol del Estado y las políticas públicas en el desarrollo económico."
+    },
+    {
+        text: "<strong>¿Qué es el crecimiento económico?</strong><br>" +
+              "El crecimiento económico se define como el aumento sostenido en la producción de bienes y servicios de un país, medido habitualmente mediante la tasa de variación anual del <strong>Producto Interno Bruto (PIB) real</strong> (ajustado por inflación).<br><br>" +
+              "• El <strong>PIB per cápita</strong> (PIB dividido por la población) permite comparar niveles de riqueza entre países y a lo largo del tiempo.<br>" +
+              "• Aunque no es una medida perfecta del bienestar, se correlaciona fuertemente con indicadores como la esperanza de vida, la alfabetización y la mortalidad infantil."
+    },
+    {
+        text: "<strong>Crecimiento vs. desarrollo</strong><br>" +
+              "El crecimiento económico es una <em>condición necesaria pero no suficiente</em> para el desarrollo. Un país puede crecer sin que sus ciudadanos mejoren su calidad de vida si:<br>" +
+              "• La riqueza generada no se distribuye equitativamente.<br>" +
+              "• No se invierte en salud, educación o protección ambiental.<br>" +
+              "• El crecimiento depende de sectores volátiles (como commodities) sin diversificación productiva.<br><br>" +
+              "El <strong>desarrollo</strong> implica, además del crecimiento, la expansión de las libertades reales de las personas (Amartya Sen)."
+    },
+    {
+        text: "<strong>Evolución histórica del crecimiento: la Gran Divergencia</strong><br>" +
+              "• Hasta alrededor del año 1500, los niveles de prosperidad entre regiones del mundo eran relativamente similares.<br>" +
+              "• A partir de los viajes de Colón y Vasco de Gama, se inicia una economía mundial integrada.<br>" +
+              "• Entre finales del siglo XVIII y mediados del XIX, Europa Occidental experimenta un crecimiento sostenido, mientras el resto del mundo se estanca.<br>" +
+              "• Este fenómeno se conoce como la <strong>Gran Divergencia</strong>: el origen de la desigualdad global actual."
+    },
+    {
+        text: "<strong>Factores del crecimiento económico</strong><br>" +
+              "El crecimiento depende de múltiples factores interrelacionados:<br>" +
+              "1. <strong>Capital físico</strong>: infraestructura, maquinaria, edificios.<br>" +
+              "2. <strong>Trabajo</strong>: cantidad y calidad de la fuerza laboral.<br>" +
+              "3. <strong>Productividad</strong>: eficiencia con la que se combinan capital y trabajo.<br>" +
+              "4. <strong>Tecnología</strong>: innovación y adopción de nuevos procesos productivos.<br><br>" +
+              "La historia muestra que los países que lograron desarrollo sostenido combinaron inversión en capital humano con adopción de tecnología y diversificación productiva."
+    },
+    {
+        text: "<strong>Ritmos de crecimiento en la historia</strong><br>" +
+              "• Antes de la Revolución Industrial: crecimiento prácticamente nulo (~0,1% anual).<br>" +
+              "• Siglo XIX (era de la industrialización): ~1% anual.<br>" +
+              "• Siglo XX (auge del capitalismo): ~3–4% anual en países desarrollados.<br>" +
+              "• Siglo XXI (2000–2020): promedio global de ~2,9% anual.<br>" +
+              "• Crecimientos superiores al 6% son excepcionales; por encima del 10% solo ocurren con descubrimientos de recursos naturales o en contextos de reconstrucción postguerra."
+    },
+    {
+        text: "<strong>El papel del Estado en el desarrollo</strong><br>" +
+              "Los países que lograron “ponerse al día” en el siglo XIX (Europa Occidental, EE.UU.) implementaron cuatro políticas clave:<br>" +
+              "1. Creación de mercados nacionales unificados.<br>" +
+              "2. Protección arancelaria de industrias nacionales.<br>" +
+              "3. Desarrollo de sistemas bancarios y financieros.<br>" +
+              "4. Educación masiva para calificar la mano de obra.<br><br>" +
+              "Estas políticas no fueron espontáneas, sino el resultado de decisiones estatales deliberadas."
+    },
+    {
+        text: "<strong>Centro y periferia en la economía mundial</strong><br>" +
+              "• El sistema económico global se estructura en torno a un <em>centro</em> (países industrializados) y una <em>periferia</em> (proveedores de materias primas).<br>" +
+              "• Las nuevas tecnologías no siempre son rentables en países de bajos salarios, lo que dificulta su convergencia.<br>" +
+              "• Los países que lograron reducir la brecha (Japón, Corea, China) lo hicieron mediante una industrialización planificada y coordinada (<em>Big Push</em>)."
+    },
+    {
+        text: "<strong>Limitaciones del PIB como medida de bienestar</strong><br>" +
+              "El PIB no refleja:<br>" +
+              "• La <strong>distribución del ingreso</strong>.<br>" +
+              "• Las <strong>actividades no mercantilizadas</strong> (trabajo doméstico, voluntariado).<br>" +
+              "• La <strong>sostenibilidad ambiental</strong>.<br>" +
+              "• El <strong>bienestar subjetivo</strong> (felicidad, cohesión social, tiempo libre).<br><br>" +
+              "Por eso, el crecimiento debe evaluarse junto con indicadores de equidad, inclusión y sostenibilidad."
+    },
+    {
+        text: "<strong>Conclusión: crecimiento con propósito</strong><br>" +
+              "El crecimiento económico no es un fin en sí mismo, sino un medio para mejorar la calidad de vida de toda la población. Su impacto depende de las políticas que lo acompañan, de cómo se distribuyen sus frutos y de si se orienta hacia una transformación estructural productiva, tecnológica y social."
+    }
+];
+
+const EFing_Clase_7_2025_p30_41 = [
+    {
+        text: "<strong>Temas principales (págs. 30–41):</strong><br>" +
+              "• Balanza de pagos: estructura y componentes.<br>" +
+              "• Cuenta corriente, cuenta de capital y cuenta financiera.<br>" +
+              "• Relación entre balanza de pagos, tipo de cambio y política macroeconómica.<br>" +
+              "• Déficit y superávit externos: causas y consecuencias.<br>" +
+              "• Análisis del caso uruguayo: evolución reciente de la balanza de pagos."
+    },
+    {
+        text: "<strong>La Balanza de Pagos (p. 30)</strong><br>" +
+              "La <strong>Balanza de Pagos</strong> es un registro contable que sistematiza todas las transacciones económicas entre residentes y no residentes de un país durante un período determinado (generalmente un año).<br><br>" +
+              "• Se elabora siguiendo el sistema de <em>doble entrada</em>: toda transacción tiene un débito y un crédito.<br>" +
+              "• Por construcción contable, la balanza de pagos siempre <em>suma cero</em> en su conjunto."
+    },
+    {
+        text: "<strong>Estructura de la Balanza de Pagos (p. 31)</strong><br>" +
+              "Se divide en tres grandes cuentas:<br>" +
+              "1. <strong>Cuenta corriente</strong>: registra el comercio de bienes y servicios, rentas y transferencias corrientes.<br>" +
+              "2. <strong>Cuenta de capital</strong>: incluye transferencias de capital (donaciones, condonaciones de deuda) e inversiones no financieras (patentes, marcas).<br>" +
+              "3. <strong>Cuenta financiera</strong>: registra inversiones directas, de cartera, préstamos y otros flujos financieros."
+    },
+    {
+        text: "<strong>Cuenta corriente (p. 32)</strong><br>" +
+              "Tiene cuatro subcuentas:<br>" +
+              "• <strong>Bienes</strong>: exportaciones e importaciones de productos tangibles.<br>" +
+              "• <strong>Servicios</strong>: turismo, transporte, seguros, regalías, etc.<br>" +
+              "• <strong>Rentas</strong>: ingresos por inversión (dividendos, intereses) y remuneraciones de asalariados no residentes.<br>" +
+              "• <strong>Transferencias corrientes</strong>: remesas familiares, cooperación internacional, etc."
+    },
+    {
+        text: "<strong>Saldo de la cuenta corriente (p. 33)</strong><br>" +
+              "• Un <strong>déficit en cuenta corriente</strong> significa que el país gasta más en el exterior de lo que ingresa (consume e invierte más de lo que produce).<br>" +
+              "• Este déficit debe financiarse con entradas de capital (inversión extranjera, préstamos, reducción de reservas).<br>" +
+              "• Un <strong>superávit en cuenta corriente</strong> implica que el país ahorra más de lo que invierte internamente y financia el resto del mundo."
+    },
+    {
+        text: "<strong>Relación con el ahorro y la inversión (p. 34)</strong><br>" +
+              "La identidad macroeconómica fundamental es:<br>" +
+              "<strong>Déficit en cuenta corriente = Inversión – Ahorro nacional</strong><br><br>" +
+              "Esto implica que:<br>" +
+              "• Si un país invierte más de lo que ahorra, tendrá déficit externo.<br>" +
+              "• Si ahorra más de lo que invierte, tendrá superávit externo.<br>" +
+              "El déficit no es necesariamente negativo si financia inversión productiva."
+    },
+    {
+        text: "<strong>Cuenta financiera (p. 35)</strong><br>" +
+              "Registra los flujos de capitales:<br>" +
+              "• <strong>Inversión Extranjera Directa (IED)</strong>: participación significativa en una empresa.<br>" +
+              "• <strong>Inversión de cartera</strong>: compra de acciones o bonos sin control.<br>" +
+              "• <strong>Otros flujos financieros</strong>: préstamos, depósitos, derivados.<br>" +
+              "• <strong>Errores y omisiones</strong>: ajuste estadístico para cuadrar la balanza.<br>" +
+              "• <strong>Variación de reservas internacionales</strong>: compras o ventas de divisas por el Banco Central."
+    },
+    {
+        text: "<strong>Equilibrio en la balanza de pagos (p. 36)</strong><br>" +
+              "• Si hay déficit en cuenta corriente, debe haber un superávit equivalente en la suma de cuenta de capital, cuenta financiera y variación de reservas.<br>" +
+              "• El Banco Central puede intervenir comprando o vendiendo divisas, afectando las <strong>reservas internacionales</strong>.<br>" +
+              "• En un régimen de tipo de cambio flexible, el mercado ajusta el tipo de cambio; en uno fijo, el BC debe usar reservas para mantener la paridad."
+    },
+    {
+        text: "<strong>Uruguay: evolución de la balanza de pagos (p. 37–39)</strong><br>" +
+              "• En 2022, Uruguay registró un <strong>déficit en cuenta corriente del 3,1% del PIB</strong>.<br>" +
+              "• Las <strong>exportaciones</strong> crecieron fuertemente (+12,5%), impulsadas por soja, carne y celulosa.<br>" +
+              "• Las <strong>importaciones</strong> también subieron (+11,1%), por mayor demanda interna y precios internacionales.<br>" +
+              "• El <strong>servicio de la deuda</strong> y las <strong>remesas de utilidades</strong> generaron salidas netas de divisas.<br>" +
+              "• El déficit fue financiado principalmente por <strong>IED</strong> y <strong>préstamos</strong>."
+    },
+    {
+        text: "<strong>Política macroeconómica y balanza de pagos (p. 40)</strong><br>" +
+              "• Un déficit persistente puede generar presión sobre el tipo de cambio y las reservas.<br>" +
+              "• Políticas fiscales expansivas (mayor gasto público) pueden aumentar la demanda de importaciones y agravar el déficit.<br>" +
+              "• Políticas monetarias contractivas (altas tasas de interés) pueden atraer capitales, pero también encarecer el crédito interno.<br>" +
+              "• La sostenibilidad del déficit depende de su origen: si financia inversión productiva, es más sostenible que si financia consumo."
+    },
+    {
+        text: "<strong>Conclusión (p. 41)</strong><br>" +
+              "La balanza de pagos es una herramienta esencial para analizar la inserción internacional de un país. En Uruguay, el déficit en cuenta corriente refleja una economía abierta con alta dependencia de flujos de capital. La gestión prudente de estos flujos y la promoción de exportaciones con valor agregado son claves para la estabilidad macroeconómica a largo plazo."
+    }
+];
+
+const EFing_Clase_7_Aplicaciones_2024 = [
+    {
+        text: "<strong>Aplicación 1 – Inflación y poder adquisitivo</strong><br>" +
+              "Con base en datos del INE (IPC con base octubre 2022 = 100), se calcula:<br>" +
+              "• <strong>Inflación mensual</strong>: π<sub>t</sub> = [(IPC<sub>t</sub> – IPC<sub>t–1</sub>) / IPC<sub>t–1</sub>] × 100<br>" +
+              "• <strong>Inflación acumulada (segundo semestre 2023)</strong>: [(IPC<sub>dic-23</sub> – IPC<sub>jun-23</sub>) / IPC<sub>jun-23</sub>] × 100 = [(104,55 – 103,22) / 103,22] × 100 = <strong>1,29%</strong>."
+    },
+    {
+        text: "<strong>Aplicación 2 – Salario real en Uruguay</strong><br>" +
+              "El <strong>Índice de Salario Real (ISR)</strong> se calcula como:<br>" +
+              "ISR<sub>t</sub> = (IMS<sub>t</sub> / IPC<sub>t</sub>) × 100<br>" +
+              "Donde IMS es el Índice Medio de Salarios y IPC el Índice de Precios al Consumo (ambos con base julio 2008 = 100).<br><br>" +
+              "Valores calculados:<br>" +
+              "• 2019: 140,18<br>" +
+              "• 2020: 137,75<br>" +
+              "• 2021: 135,71<br>" +
+              "• 2022: 134,97<br>" +
+              "• 2023: 139,95"
+    },
+    {
+        text: "<strong>Interpretación de la evolución del salario real</strong><br>" +
+              "• Entre <strong>2019 y 2022</strong>, el salario real <strong>disminuyó</strong> porque el IPC subió más que el IMS (los precios crecieron más que los salarios nominales).<br>" +
+              "• Entre <strong>2022 y 2023</strong>, el salario real <strong>aumentó</strong> porque el IMS creció más que el IPC.<br><br>" +
+              "Variaciones relativas:<br>" +
+              "• 2019–2022: IMS +24,22%, IPC +29% → ISR –3,72%<br>" +
+              "• 2022–2023: IMS +9,8%, IPC +5,9% → ISR +3,69%"
+    }
+];
+
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
     tema: "economia/clases",
@@ -4677,6 +5232,16 @@ export const temas = {
         'sexta_clase_efing_p20_30': EFing_Clase_6_2025_p20_30,
         'sexta_clase_efing_p30_40': EFing_Clase_6_2025_p30_40,
         'sexta_clase_efing_p40_42': EFing_Clase_6_2025_p40_42,
+
+        'septima_clase_biblio_chang_cap7_p1_10': Biblio_Chang_Cap7_p1_10,
+        'septima_clase_biblio_chang_cap7_p10_17': Biblio_Chang_Cap7_p10_17,
+        'septima_clase_biblio_cinve_cap1_p1_10': biblio_CINVE_Cap1_p1_10,
+        'septima_clase_biblio_cinve_cap1_p10_18': biblio_CINVE_Cap1_p10_18,
+        'septima_clase_efing_p1_10': EFing_Clase_7_2025_p1_10,
+        'septima_clase_efing_p10_20': EFing_Clase_7_2025_p10_20,
+        'septima_clase_efing_p20_30': EFing_Clase_7_2025_p20_30,
+        'septima_clase_efing_p30_41': EFing_Clase_7_2025_p30_41,
+        'septima_clase_aplicaciones': EFing_Clase_7_Aplicaciones_2024,
 
         // Añade más temas aquí siguiendo el patrón: 'nombreTema': nombreTema_constante
         // Asegúrate de que las claves (strings) coincidan con los nombres de las constantes definidas
