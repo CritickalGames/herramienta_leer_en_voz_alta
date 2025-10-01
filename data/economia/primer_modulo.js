@@ -1096,7 +1096,7 @@ const Economía_política_o_economía_a_secas_2019_p10_final = [
 
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
-    tema: "economia/clases",
+    tema: "Primer_modulo",
     temas:{
         'primera_clase': PPT_Clase_Economía_en_la_Historia_de_la_Humanidad_2024,
         'segunda_clase': Presentación_HE,

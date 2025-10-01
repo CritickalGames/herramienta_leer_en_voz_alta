@@ -113,7 +113,7 @@ const Prototipo_1er_parcial_economía_Preguntas_múltiple_opción = [
 
 
 export const temas = {
-    tema: "economia/clases",
+    tema: "Ejemplo_parcial",
     temas:{
         'primer_parcial_economia_preguntas_desarrollo': Prototipo_1er_parcial_economía_Preguntas_desarrollo,
         'primer_parcial_economia_preguntas_multiples_opciones': Prototipo_1er_parcial_economía_Preguntas_múltiple_opción

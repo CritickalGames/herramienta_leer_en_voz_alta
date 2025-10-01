@@ -5155,7 +5155,7 @@ const EFing_Clase_7_Aplicaciones_2024 = [
 
 // --- Objeto que agrupa todos los temas ---
 export const temas = {
-    tema: "economia/clases",
+    tema: "Segundo_modulo",
     temas:{
         'primera_clase_bibliografia_CINVE_PAGINA_1_10': biblio_Clase1_CINVE_Intro_p1_10,
         'primera_clase_bibliografia_CINVE_PAGINA_10_21': biblio_Clase1_CINVE_Intro_p10_21,
