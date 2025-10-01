@@ -39,12 +39,28 @@ const Respuestas_de_Desarrollo = [
               "3. Pensando en el mercado de bienes y servicios explique qué variables se determinan en las interacciones de este mercado, y qué factores hacen que estas cambien."
     },
     {
+        text: "<strong>Respuesta Pregunta 1.1</strong><br>" +
+              "Un modelo económico es una descripción simplificada de la realidad, que rescata la lógica de funcionamiento de aquello que quiere describir, así como también los determinantes. Para lograr esto, los modelos suelen hacer supuestos y explicitar cómo son las relaciones entre las variables económicas relevantes para el modelo. Son útiles ya que logran de manera simplificada, describir un fenómeno complejo. Por ejemplo, en el modelo de flujo circular complejo se logra describir el funcionamiento general de una economía. Algo que podría parecer muy complejo, se logra reducir al esquema presentado."
+    },
+    {
+        text: "<strong>Respuesta Pregunta 1.2</strong><br>" +
+              "El modelo de la imagen es el modelo de flujo circular complejo, los agentes son los hogares, las empresas, el sector público y el sector externo. Para una descripción detallada de funciones o características de los agentes, y sus interrelaciones ver diapositivas 22 a 41 de la clase 1."
+    },
+    {
+        text: "<strong>Respuesta Pregunta 1.3</strong><br>" +
+              "En el mercado de bienes y servicios, como en cualquier mercado en general, se determinan precios y cantidades de bienes y servicios. El precio y la cantidad transada de un determinado bien y servicio se ven afectados por aquellos factores que determinan la oferta y la demanda. Detrás de la oferta de un mercado se encuentran las empresas, que son quienes producen y venden (ofertan) el bien o servicio, detrás de la demanda se encuentran los hogares, que son quienes van al mercado de bienes y servicios en busca de estos para satisfacer sus necesidades de consumo. Por lo tanto, los factores que determinan la oferta están relacionados con aquellos que afectan a las empresas, y los que determinan la demanda están relacionados con aquellos que afectan a los hogares."
+    },
+    {
         text: "<strong>Pregunta 2</strong><br>" +
               "A continuación se muestra un gráfico del índice del PIB a precios corrientes de dos países.<br>" +
               "1. Defina crecimiento económico y explique los indicadores que se usan para medir este fenómeno.<br>" +
               "2. Mencione las causas o determinantes próximos del crecimiento y desarrolle cada uno explicando claramente su vínculo con el crecimiento económico.<br>" +
               "3. A partir de la información presentada en el gráfico, relacione la volatilidad de corto plazo con el crecimiento de largo plazo. Explique los conceptos mencionados.<br>" +
               "4. ¿Qué características ha presentado el ciclo económico de Uruguay y la región en comparación con el de los países desarrollados?"
+    },
+     {
+        text: "<strong>Respuesta Pregunta 2.1</strong><br>" +
+              "El crecimiento económico es un proceso de largo plazo en el que se incrementa la producción de bienes y servicios. Para medirlo se utilizan los indicadores: PIB real y PIB real per cápita."
     },
     {
         text: "<strong>Respuesta Pregunta 2.2</strong><br>" +
@@ -73,27 +89,22 @@ const Respuestas_de_Desarrollo = [
               "La economía uruguaya creció 4,9% en 2022 con respecto a 2021 y este crecimiento se explica por la variación en el resto de las variables. En particular, el crecimiento económico fue impulsado por el crecimiento de las exportaciones que aumentaron un 11,1%, la inversión (creció 5,2%), el consumo de los hogares (aumentó 6%) y el gasto del gobierno (aumentó 0,6%)."
     },
     {
+        text: "<strong>Respuesta Pregunta 3.2</strong><br>" +
+              "En 2022, la estructura productiva uruguaya mostró un desempeño heterogéneo entre sectores. Los sectores que crecieron por encima del promedio nacional (4,9%) fueron principalmente:<br>" +
+              "• Alojamiento y suministro de comidas y bebidas,<br>" +
+              "• Transporte y almacenamiento, información y comunicaciones (+9,7%),<br>" +
+              "• Servicios financieros,<br>" +
+              "• Actividades profesionales y arrendamiento,<br>" +
+              "• Salud, educación y actividades inmobiliarias.<br><br>" +
+              "En cambio, sectores como la administración pública (–1,1%), energía eléctrica, gas y agua, y en menor medida agropecuario, pesca y minería, mostraron estancamiento o caída. Este patrón refleja una economía en expansión liderada por el sector servicios y con debilidad en el sector público y algunos segmentos de la industria básica, lo que condiciona la calidad y sostenibilidad del crecimiento si no se diversifica la base productiva."
+    },
+    {
         text: "<strong>Respuesta Pregunta 3.3</strong><br>" +
               "La evolución del crecimiento económico se vincula estrechamente con las posibilidades de desarrollo futuro de un país, ya que constituye la base material sobre la cual se pueden sustentar mejoras en el bienestar de la población. Sin embargo, el crecimiento por sí solo no garantiza el desarrollo. Para que exista desarrollo económico el proceso de crecimiento económico debe estar acompañado de un aumento de las capacidades productivas del país.<br><br>" +
               "A su vez, considerando otras dimensiones del desarrollo, es decir para que el crecimiento económico se relacione con una mejora en la calidad de vida de las personas, las decisiones de cada país sobre la orientación de su estructura productiva, la inversión en capital humano a través de la educación y la salud, el impulso a la innovación tecnológica y la forma de inserción en los mercados internacionales son factores determinantes. Además, el crecimiento económico sólo se traduce en desarrollo si se acompaña de políticas redistributivas y de reducción de la pobreza, que permitan que los beneficios lleguen de manera equitativa al conjunto de los habitantes.<br><br>" +
               "Las posibilidades de desarrollo de un país en el futuro no dependen únicamente del crecimiento económico que logre alcanzar, sino también de cómo gestione dicho crecimiento, orientándolo hacia la inclusión social, la equidad y la sostenibilidad."
-    },
-    {
-        text: "<strong>Respuesta Pregunta 1.1</strong><br>" +
-              "Un modelo económico es una descripción simplificada de la realidad, que rescata la lógica de funcionamiento de aquello que quiere describir, así como también los determinantes. Para lograr esto, los modelos suelen hacer supuestos y explicitar cómo son las relaciones entre las variables económicas relevantes para el modelo. Son útiles ya que logran de manera simplificada, describir un fenómeno complejo. Por ejemplo, en el modelo de flujo circular complejo se logra describir el funcionamiento general de una economía. Algo que podría parecer muy complejo, se logra reducir al esquema presentado."
-    },
-    {
-        text: "<strong>Respuesta Pregunta 1.2</strong><br>" +
-              "El modelo de la imagen es el modelo de flujo circular complejo, los agentes son los hogares, las empresas, el sector público y el sector externo. Para una descripción detallada de funciones o características de los agentes, y sus interrelaciones ver diapositivas 22 a 41 de la clase 1."
-    },
-    {
-        text: "<strong>Respuesta Pregunta 1.3</strong><br>" +
-              "En el mercado de bienes y servicios, como en cualquier mercado en general, se determinan precios y cantidades de bienes y servicios. El precio y la cantidad transada de un determinado bien y servicio se ven afectados por aquellos factores que determinan la oferta y la demanda. Detrás de la oferta de un mercado se encuentran las empresas, que son quienes producen y venden (ofertan) el bien o servicio, detrás de la demanda se encuentran los hogares, que son quienes van al mercado de bienes y servicios en busca de estos para satisfacer sus necesidades de consumo. Por lo tanto, los factores que determinan la oferta están relacionados con aquellos que afectan a las empresas, y los que determinan la demanda están relacionados con aquellos que afectan a los hogares."
-    },
-    {
-        text: "<strong>Respuesta Pregunta 2.1</strong><br>" +
-              "El crecimiento económico es un proceso de largo plazo en el que se incrementa la producción de bienes y servicios. Para medirlo se utilizan los indicadores: PIB real y PIB real per cápita."
-    }
+    }    
+   
 ];
 
 const Prototipo_1er_parcial_economía_Preguntas_múltiple_opción = [
